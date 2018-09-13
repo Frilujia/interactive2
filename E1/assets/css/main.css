@@ -130,7 +130,7 @@ body {
 	position: absolute;
 	top: 320px;
 	left:460px;
-	box-shadow: 5px 9px 8px #640404;
+	box-shadow: 5px 9px 8px #640404, -15px -15px 30px #724A05 inset;
   
   
 }
