@@ -26,7 +26,6 @@ body {
 	left: 660px;
 	transform: rotate(5deg);
 	box-shadow: 10px 17px 17px #640404;
-  z-index: 1000;
 }
 
 #triangle2 {
@@ -40,7 +39,6 @@ body {
 	left: 786px;
 	transform: rotate(68deg);
 	box-shadow: 19px 9px 20px #640404;
-  z-index: 1000;
 }
 
 #triangle3 {
@@ -54,7 +52,6 @@ body {
 	left: 862px;
 	transform: rotate(162deg);
 	box-shadow: 9px 9px 13px #640404;
-  z-index: 1000;
 }
 
 
@@ -397,12 +394,14 @@ body {
   }
 }
 #infinity4 {
-	transform-origin:100% center;
-    -webkit-animation: rotating 15s linear infinite;
-  -moz-animation: rotating 15s linear infinite;
-  -ms-animation: rotating 15s linear infinite;
-  -o-animation: rotating 15s linear infinite;
-  animation: rotating 15s linear infinite;
+  left: 390px;
+  top: 190px;
+	transform-origin:-65% center;
+    -webkit-animation: rotating 10s linear infinite;
+  -moz-animation: rotating 10s linear infinite;
+  -ms-animation: rotating 10s linear infinite;
+  -o-animation: rotating 10s linear infinite;
+  animation: rotating 10s linear infinite;
   
 }
 
