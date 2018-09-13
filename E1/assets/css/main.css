@@ -394,7 +394,7 @@ body {
   }
 }
 #infinity4 {
-	transform-origin:200% center;
+	transform-origin:300% center;
     -webkit-animation: rotating 30s linear infinite;
   -moz-animation: rotating 30s linear infinite;
   -ms-animation: rotating 30s linear infinite;
