@@ -26,6 +26,7 @@ body {
 	left: 660px;
 	transform: rotate(5deg);
 	box-shadow: 10px 17px 17px #640404;
+  z-index: 1000px;
 }
 
 #triangle2 {
@@ -39,6 +40,7 @@ body {
 	left: 786px;
 	transform: rotate(68deg);
 	box-shadow: 19px 9px 20px #640404;
+  z-index: 1000px;
 }
 
 #triangle3 {
@@ -52,6 +54,7 @@ body {
 	left: 862px;
 	transform: rotate(162deg);
 	box-shadow: 9px 9px 13px #640404;
+  z-index: 1000px;
 }
 
 
