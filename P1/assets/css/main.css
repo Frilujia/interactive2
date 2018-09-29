@@ -3683,7 +3683,6 @@ body{
 
 
 
-
 .letter1 {
   position: relative;
   width: 200px;
@@ -3799,7 +3798,6 @@ body{
   top: 187px;
   left: 71px;
   background: #ffcc00;
-  z-index: -1000000;
 }
 
 .one12 {
@@ -3809,7 +3807,6 @@ body{
   top: 184px;
   left: 73px;
   background: #b32d00;
-  z-index: -100000000;
 }
 
 
@@ -3821,9 +3818,42 @@ body{
 
 
 
+.letter2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left:5600px;
+  top:-5200px;
+  border: 1px ;
+}
 
 
+.two10 {
+  position: absolute;
+  width:58px;
+  height:1.5px;
+  top: 190px;
+  left: 68px;
+  background: #00b8e6;
+}
 
+.two11 {
+  position: absolute;
+  width:58px;
+  height:1.5px;
+  top: 187px;
+  left: 71px;
+  background: #ffcc00;
+}
+
+.two12 {
+  position: absolute;
+  width:58px;
+  height:1.5px;
+  top: 184px;
+  left: 73px;
+  background: #b32d00;
+}
 
 
 
