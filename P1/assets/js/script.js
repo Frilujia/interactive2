@@ -3,6 +3,16 @@ $(document).ready(function(){
     //     $('html, body').animate({scrollLeft: $('#five').position().left}, 500);
     // });
 
+    $('.letter').hover(
+        function() {
+            $('div').each(function() {
+                $(this).addClass('animation-' + Math.floor(Math.random() * 4 + 1));
+            });
+        }, function() {
+            $('div').removeClass('animation-1 animation-2 animation-3 animation-4');
+        }
+    );
+
     $(document).keypress(function(e) {
             
         // the keycode for 'a' is 97
@@ -172,8 +182,6 @@ $(document).ready(function(){
          if ( e.which == 63 ) {
             $('html, body').animate({scrollLeft: $('#qm').position().left}, 500);
         }
-
-
 
 
     });    

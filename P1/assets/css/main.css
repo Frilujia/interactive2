@@ -2,6 +2,35 @@ body{
   background-color: #0d0d0d;
 }
 
+.animation-1{
+      -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(0px, 10px);
+    transition: 0.2s;
+}
+
+.animation-2{
+      -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(5px, 5px);
+    transition: 0.2s;
+}
+
+.animation-3{
+      -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(10px, 0px);
+    transition: 0.2s;
+}
+
+.animation-4{
+      -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(0px, 10px);
+    transition: 0.2s;
+}
+
+
 
 
 .top {
