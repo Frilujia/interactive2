@@ -3,6 +3,8 @@ $(document).ready(function(){
     //     $('html, body').animate({scrollLeft: $('#five').position().left}, 500);
     // });
 
+    
+
     $('.letter').hover(
         function() {
             $('div').each(function() {

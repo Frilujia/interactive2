@@ -1271,9 +1271,12 @@ body{
   left:200px;
   top:350px;
   border: 1px ;
+  filter: blur(6px);
 }
 
-
+.letteri:hover {
+    filter: blur(0px);
+}
 
 .i1 {
   position: absolute;
@@ -1392,8 +1395,12 @@ body{
   top:150px;
   left:400px;
   border: 1px ;
+  filter: blur(3px);
 }
 
+.letterh:hover {
+    filter: blur(0px);
+}
 
 .h1 {
   position: absolute;
@@ -1546,8 +1553,12 @@ body{
   left:600px;
   top:-50px;
   border: 1px;
+  filter: blur(2px);
 }
 
+.lettere:hover {
+    filter: blur(0px);
+}
 
 .e1 {
   position: absolute;
@@ -2063,6 +2074,11 @@ body{
   left:1400px;
   top:-850px;
   border: 1px ;
+filter: blur(3px);
+}
+
+.lettert:hover {
+    filter: blur(0px);
 }
 
 .t1 {
@@ -2638,6 +2654,11 @@ body{
   left:2200px;
   top:-1650px;
   border: 1px ;
+  filter: blur(5px);
+}
+
+.letterd:hover {
+    filter: blur(0px);
 }
 
 .d1 {
@@ -3782,6 +3803,11 @@ body{
   left:3600px;
   top:-3050px;
   border: 1px ;
+  filter: blur(8px);
+}
+
+.letterw:hover {
+    filter: blur(0px);
 }
 
 .w1 {
@@ -4584,6 +4610,11 @@ body{
   left:5000px;
   top:-4450px;
   border: 1px ;
+  filter: blur(5px);
+}
+
+.letters:hover {
+    filter: blur(0px);
 }
 .s1{
     position: absolute;
