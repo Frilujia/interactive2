@@ -40,7 +40,7 @@ body{
   left:700px;
   top:350px;
   border: 1px ;
-    filter: blur(7px);
+    filter: blur(6px);
     transform: scale(3,3);
 }
 
@@ -226,7 +226,7 @@ body{
   left:1400px;
   top:150px;
   border: 1px ;
-  filter: blur(12px);
+  filter: blur(14px);
      transform: scale(3,3);
 }
 
@@ -655,7 +655,7 @@ body{
   left:3500px;
   top:-450px;
   border: 1px ;
-  filter: blur(5px);
+  filter: blur(4px);
      transform: scale(3,3);
 }
 
@@ -771,7 +771,7 @@ body{
   left:4200px;
   top: -650px;
   border: 1px ;
-  filter: blur(4px);
+  filter: blur(8px);
      transform: scale(3,3);
 }
 .letterhh:hover {
@@ -1268,13 +1268,10 @@ body{
   width: 200px;
   height: 200px;
   left:200px;
-  top:200px;
+  top:350px;
   border: 1px ;
 }
 
-.letteri:hover {
-    filter: blur(9px);
-}
 
 
 .i1 {
@@ -1391,6 +1388,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
+  top:150px;
   left:400px;
   border: 1px ;
 }
@@ -1545,7 +1543,7 @@ body{
   width: 200px;
   height: 200px;
   left:600px;
-  top:-200px;
+  top:-50px;
   border: 1px;
 }
 
@@ -1700,7 +1698,7 @@ body{
   width: 200px;
   height: 200px;
   left:800px;
-  top:-400px;
+  top:-250px;
   border: 1px ;
 }
 
@@ -1826,7 +1824,7 @@ body{
   width: 200px;
   height: 200px;
   left:1000px;
-  top:-600px;
+  top:-450px;
   border: 1px ;
 }
 
@@ -1962,7 +1960,7 @@ body{
   width: 200px;
   height: 200px;
   left:1200px;
-  top:-800px;
+  top:-650px;
   border: 1px ;
 }
 
@@ -2062,7 +2060,7 @@ body{
   width: 200px;
   height: 200px;
   left:1400px;
-  top:-1000px;
+  top:-850px;
   border: 1px ;
 }
 
@@ -2162,7 +2160,7 @@ body{
   width: 200px;
   height: 200px;
   left:1600px;
-  top:-1200px;
+  top:-1050px;
   border: 1px ;
 }
 
@@ -2263,7 +2261,7 @@ body{
   width: 200px;
   height: 200px;
   left:1800px;
-  top:-1400px;
+  top:-1250px;
   border: 1px ;
 }
 
@@ -2469,7 +2467,7 @@ body{
   width: 200px;
   height: 200px;
   left:2000px;
-  top:-1600px;
+  top:-1450px;
   border: 1px ;
 }
 
@@ -2637,7 +2635,7 @@ body{
   width: 200px;
   height: 200px;
   left:2200px;
-  top:-1800px;
+  top:-1650px;
   border: 1px ;
 }
 
@@ -2805,7 +2803,7 @@ body{
   width: 200px;
   height: 200px;
   left:2400px;
-  top:-2000px;
+  top:-1850px;
   border: 1px ;
 }
 
@@ -2972,7 +2970,7 @@ body{
   width: 200px;
   height: 200px;
   left:2600px;
-  top:-2200px;
+  top:-2050px;
   border: 1px ;
 }
 .j1 {
@@ -3076,7 +3074,7 @@ body{
   width: 200px;
   height: 200px;
   left:2800px;
-  top:-2400px;
+  top:-2250px;
   border: 1px ;
 }
 
@@ -3222,7 +3220,7 @@ body{
   width: 200px;
   height: 200px;
   left:3000px;
-  top:-2600px;
+  top:-2450px;
   border: 1px;
 }
 .n1 {
@@ -3384,7 +3382,7 @@ body{
   width: 200px;
   height: 200px;
   left:3200px;
-  top:-2800px;
+  top:-2650px;
   border: 1px ;
 }
 
@@ -3581,7 +3579,7 @@ body{
   width: 200px;
   height: 200px;
   left:3400px;
-  top:-3000px;
+  top:-2850px;
   border: 1px ;
 }
 
@@ -3781,7 +3779,7 @@ body{
   width: 200px;
   height: 200px;
   left:3600px;
-  top:-3200px;
+  top:-3050px;
   border: 1px ;
 }
 
@@ -3981,7 +3979,7 @@ body{
   width: 200px;
   height: 200px;
   left:3800px;
-  top:-3400px;
+  top:-3250px;
   border: 1px ;
 }
 .o1{
@@ -4063,7 +4061,7 @@ body{
   width: 200px;
   height: 200px;
   left:4000px;
-  top:-3600px;
+  top:-3450px;
   border: 1px ;
 }
 .u1 {
@@ -4164,7 +4162,7 @@ body{
   width: 200px;
   height: 200px;
   left:4200px;
-  top:-3800px;
+  top:-3650px;
   border: 1px ;
 }
 .c1{
@@ -4277,7 +4275,7 @@ body{
   width: 200px;
   height: 200px;
   left:4400px;
-  top:-4000px;
+  top:-3850px;
   border: 1px ;
 }
 
@@ -4359,7 +4357,7 @@ body{
   width: 200px;
   height: 200px;
   left:4600px;
-  top:-4200px;
+  top:-4050px;
   border: 1px ;
 }
 .q1{
@@ -4481,7 +4479,7 @@ body{
   width: 200px;
   height: 200px;
   left:4800px;
-  top:-4400px;
+  top:-4250px;
   border: 1px ;
 }
 .y1{
@@ -4583,7 +4581,7 @@ body{
   width: 200px;
   height: 200px;
   left:5000px;
-  top:-4600px;
+  top:-4450px;
   border: 1px ;
 }
 .s1{
@@ -4761,7 +4759,7 @@ body{
   width: 200px;
   height: 200px;
   left:5200px;
-  top:-4800px;
+  top:-4650px;
   border: 1px ;
 }
 .g1{
@@ -4936,7 +4934,7 @@ body{
   width: 200px;
   height: 200px;
   left:5400px;
-  top:-5000px;
+  top:-4850px;
   border: 1px ;
 }
 .one1{
@@ -5045,7 +5043,7 @@ body{
   width: 200px;
   height: 200px;
   left:5600px;
-  top:-5200px;
+  top:-5050px;
   border: 1px ;
 }
 
@@ -5192,7 +5190,7 @@ body{
   width: 200px;
   height: 200px;
   left:5800px;
-  top:-5400px;
+  top:-5250px;
   border: 1px ;
 }
 
@@ -5345,7 +5343,7 @@ body{
   width: 200px;
   height: 200px;
   left:6000px;
-  top:-5600px;
+  top:-5450px;
   border: 1px ;
 }
 
@@ -5451,7 +5449,7 @@ body{
   width: 200px;
   height: 200px;
   left:6200px;
-  top:-5800px;
+  top:-5650px;
   border: 1px ;
 }
 
@@ -5630,7 +5628,7 @@ body{
   width: 200px;
   height: 200px;
   left:6400px;
-  top:-6000px;
+  top:-5850px;
   border: 1px ;
 }
 .six1{
@@ -5737,7 +5735,7 @@ body{
   width: 200px;
   height: 200px;
   left:6600px;
-  top:-6200px;
+  top:-6050px;
   border: 1px ;
 }
 
@@ -5815,7 +5813,7 @@ body{
   width: 200px;
   height: 200px;
   left:6800px;
-  top:-6400px;
+  top:-6250px;
   border: 1px ;
 }
 
@@ -5929,7 +5927,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:7000px;
-  top:-6600px;
+  top:-6450px;
   border: 1px ;
 }
 
@@ -6041,7 +6039,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:7200px;
-  top:-6800px;
+  top:-6650px;
   border: 1px ;
 }
 
@@ -6181,7 +6179,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:7400px;
-  top:-7000px;
+  top:-6850px;
   border: 1px ;
 }
 .em1 {
@@ -6252,7 +6250,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:7600px;
-  top:-7200px;
+  top:-7050px;
   border: 1px ;
 }
 
@@ -6323,7 +6321,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:7800px;
-  top:-7400px;
+  top:-7250px;
   border: 1px ;
 }
 
@@ -6365,7 +6363,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:8000px;
-  top:-7600px;
+  top:-7450px;
   border: 1px ;
 }
 .qml1 {
@@ -6436,7 +6434,7 @@ border-bottom: none;
   width: 200px;
   height: 200px;
   left:8200px;
-  top:-7800px;
+  top:-7650px;
   border: 1px ;
 }
 .qmr1 {
