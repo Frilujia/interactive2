@@ -37,14 +37,15 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:200px;
-  top:100px;
+  left:700px;
+  top:350px;
   border: 1px ;
-    filter: blur(8px);
+    filter: blur(7px);
+    transform: scale(3,3);
 }
 
 .letterss:hover {
-    filter: blur(1px);
+    filter: blur(3px);
 }
 
 .ss1{
@@ -215,14 +216,22 @@ body{
   }
 
 
+
+
+
 .letterww {
   position: relative;
   width: 200px;
   height: 200px;
-  left:400px;
-  top:-100px;
+  left:1400px;
+  top:150px;
   border: 1px ;
-  filter: blur(7px);
+  filter: blur(12px);
+     transform: scale(3,3);
+}
+
+.letterww:hover {
+    filter: blur(4px);
 }
 
 .ww1 {
@@ -416,13 +425,16 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:600px;
-  top:-300px;
+  left:2100px;
+  top:-50px;
   border: 1px ;
-  filter: blur(6px);
+  filter: blur(3px);
+     transform: scale(3,3);
 }
 
-
+.letterii:hover {
+    filter: blur(5px);
+}
 
 .ii1 {
   position: absolute;
@@ -540,10 +552,15 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:800px;
-  top:-500px;
+  left:2800px;
+  top:-250px;
   border: 1px ;
-  filter: blur(5px);
+  filter: blur(6px);
+     transform: scale(3,3);
+}
+
+.lettertt:hover {
+    filter: blur(3px);
 }
 
 .tt1 {
@@ -635,11 +652,17 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1000px;
-  top:-700px;
+  left:3500px;
+  top:-450px;
   border: 1px ;
-  filter: blur(4px);
+  filter: blur(5px);
+     transform: scale(3,3);
 }
+
+.lettercc:hover {
+    filter: blur(9px);
+}
+
 .cc1{
     position: absolute;
     top: 10px;
@@ -738,16 +761,22 @@ body{
   
   }
 
+
+
+
 .letterhh {
   position: relative;
   width: 200px;
   height: 200px;
-  left:1200px;
-  top: -900px;
+  left:4200px;
+  top: -650px;
   border: 1px ;
-  filter: blur(3px);
+  filter: blur(4px);
+     transform: scale(3,3);
 }
-
+.letterhh:hover {
+    filter: blur(7px);
+}
 
 .hh1 {
   position: absolute;
@@ -895,12 +924,15 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1400px;
-  top:-1100px;
+  left:4900px;
+  top:-850px;
   border: 1px;
-  filter: blur(2px);
+  filter: blur(3px);
+     transform: scale(3,3);
 }
-
+.letteree:hover {
+    filter: blur(20px);
+}
 
 .ee1 {
   position: absolute;
@@ -1043,6 +1075,177 @@ body{
 }
 
 
+.letterdd {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left:5600px;
+  top:-1050px;
+  border: 1px ;
+  filter: blur(2px);
+     transform: scale(3,3);
+}
+
+.letterdd:hover {
+    filter: blur(9px);
+}
+
+.dd1 {
+  position: absolute;
+  top:10px;
+  left: 68px;
+  border-left: 1px solid green;
+  height: 70px;
+  border-color: #b32d00;
+}
+
+.dd2 {
+  position: absolute;
+  top:80px;
+  left: 68px;
+  border-left: 1px solid red;
+  height: 110px;
+  border-color: #00b8e6;
+}
+
+.dd3 {
+  position: absolute;
+  top:7px;
+  left: 71px;
+  border-left: 1px solid green;
+  height: 74px;
+  border-color: #00b8e6;
+}
+
+
+.dd4 {
+  position: absolute;
+  top:77px;
+  left: 71px;
+  border-left: 1px solid red;
+  height: 110px;
+  border-color: #ffcc00;
+}
+
+.dd5 {
+  position: absolute;
+  top:4px;
+  left: 74px;  
+  border-left: 1px solid green;
+  height: 78px;
+  border-color: #ffcc00;
+}
+
+.dd6 {
+  position: absolute;
+  top:74px;
+  left: 74px;
+  border-left: 1px solid red;
+  height: 110px;
+  border-color: #b32d00;
+}
+
+.dd7{
+    position: absolute;
+    top: 10px;
+    left: 68px;
+    width: 51.5px;
+    height: 35px;
+    border: 1px solid #00b8e6;
+    border-radius: 0px 30px 0px 0px;
+    border-left: none;
+    border-bottom: none;
+  }
+
+.dd8{
+    position: absolute;
+    top: 7px;
+    left: 71px;
+    width: 51.5px;
+    height: 35px;
+    border: 1px solid #ffcc00;
+    border-radius: 0px 30px 0px 0px;
+    border-left: none;
+    border-bottom: none;
+  }
+
+.dd9{
+    position: absolute;
+    top: 4px;
+    left: 74px;
+    width: 51.5px;
+    height:35px;
+    border: 1px solid #b32d00;
+    border-radius: 0px 30px 0px 0px;
+    border-left: none;
+    border-bottom: none;
+  }
+  
+.dd10 {
+  position: absolute;
+  top:45px;
+  left: 119.5px;
+  border-left: 1px solid red;
+  height: 110.5px;
+  border-color: #00b8e6;
+
+}
+
+.dd11 {
+  position: absolute;
+  top:42px;
+  left: 122.5px;
+  border-left: 1px solid red;
+  height: 110.5px;
+  border-color: #ffcc00;
+}
+
+.dd12 {
+  position: absolute;
+  top:39px;
+  left: 125.5px;
+  border-left: 1px solid red;
+  height: 110.5px;
+  border-color: #b32d00;
+}
+
+.dd13{
+    position: absolute;
+    top: 155px;
+    left: 68px;
+    width: 51.5px;
+    height: 35px;
+    border: 1px solid #00b8e6;
+    border-radius: 0px 0px 30px 0px;
+    border-left: none;
+    border-top: none;
+  }
+
+.dd14{
+    position: absolute;
+    top: 152px;
+    left: 71px;
+    width: 51.5px;
+    height: 35px;
+    border: 1px solid #ffcc00;
+    border-radius: 0px 0px 30px 0px;
+    border-left: none;
+    border-top: none;
+  }
+
+.dd15{
+    position: absolute;
+    top: 149px;
+    left: 74px;
+    width: 51.5px;
+    height:35px;
+    border: 1px solid #b32d00;
+    border-radius: 0px 0px 30px 0px;
+    border-left: none;
+    border-top: none;
+  }
+
+
 
 
 
@@ -1069,6 +1272,9 @@ body{
   border: 1px ;
 }
 
+.letteri:hover {
+    filter: blur(9px);
+}
 
 
 .i1 {
