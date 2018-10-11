@@ -157,26 +157,26 @@ filter: brightness(150%);
   100% {
     color: #ECAAAA;
   }}
-
-
-#button-11{
-  background-color: transparent;
-}
-
 #button-11:hover{
-filter: drop-shadow(15px 15px 8px #506572) blur(1px);
-
+background-color: #C796A1;
+    transform: scale(7);
+    color: white;
 }
+
 
 #button-12:hover{
 filter: brightness(250%);
 
 }
 
+
+#button-13{
+  background-color: transparent;
+}
+
 #button-13:hover{
-background-color: #A7CAD0;
-    transform: scale(7);
-    color: white;
+filter: drop-shadow(15px 15px 8px #506572) blur(1px);
+
 }
 
 #button-14:hover {
