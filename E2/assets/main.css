@@ -147,7 +147,7 @@ filter: brightness(150%);
 
 #button-10:hover{
   color: orange;
-  animation: changecolor 6s ease 1s 1 forwards;
+  animation: changecolor 3s ease 1s 1 forwards;
 }
 
 @keyframes changecolor {
@@ -179,20 +179,32 @@ background-color: #A7CAD0;
     color: white;
 }
 
-#button-14:hover{
-  color: #FEB304;
-  width: 250px;
-  text-align: center;
-  border: 40px solid #8D1515;
-  animation: boxshadow 2s ease 1s 3 alternate forwards;
+#button-14:hover {
+  color: white;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
 }
 
-@keyframes boxshadow {
-  100% {
-    border-bottom: 40px solid #1C5B04;
-    border-top: 40px solid #1C5B04;
-  } 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:#13AEB9; left:0px; top:0px;}
+    25%  {background-color:#A072AE; left:200px; top:0px;}
+    50%  {background-color:#AE7284; left:200px; top:200px;}
+    75%  {background-color:#F9BA3C; left:0px; top:200px;}
+    100% {background-color:#981F00; left:0px; top:0px;}
 }
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:#13AEB9; left:0px; top:0px;}
+    25%  {background-color:#A072AE; left:200px; top:0px;}
+    50%  {background-color:#AE7284; left:200px; top:200px;}
+    75%  {background-color:#F9BA3C; left:0px; top:200px;}
+    100% {background-color:#981F00; left:0px; top:0px;}
+}
+
 
 
 #button-15:hover {
@@ -270,10 +282,49 @@ filter: blur(80px);
   }
 }
 
-
-#button-21{
-  background-color: transparent;
+#button-21:hover{
+  color: #FEB304;
+  width: 250px;
+  text-align: center;
+  border: 40px solid #8D1515;
+  animation: boxshadow 2s ease 1s 3 alternate forwards;
 }
+
+@keyframes boxshadow {
+  100% {
+    border-bottom: 40px solid #1C5B04;
+    border-top: 40px solid #1C5B04;
+  } 
+}
+
+
+
+
+
+
+#button-22{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+}
+#button-22:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
+
 
 
 
@@ -302,10 +353,10 @@ background-color: transparent;
 #button-24:hover{
 background-image: url('http://actunet.net/wp-content/uploads/2017/10/giphy-6.gif');
 color: #860F0F;
-animation: moveBg 10s ease 1s 2 alternate none;
+animation: moveBbg 10s ease 1s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes moveBbg {
   100% {
     background-position: bottom top;
   }
@@ -321,7 +372,7 @@ animation: moveBg 10s ease 1s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom left;
+    background-position: bottom right;
   }
 }
 
