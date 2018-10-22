@@ -11,9 +11,14 @@ h1{
   color: white;
 }
 
+a{
+color:black;
+text-decoration: none;
+
+}
 
 h2 {
-	font-family:'Josefin Sans', sans-serif;;
+	font-family:copperplate;
 	font-size: 20px;
   top: 200px;
 	text-align: center;
@@ -79,7 +84,7 @@ animation-play-state: paused;
 
 
 #button-1{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-01.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -96,7 +101,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 }
 
 #button-2{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-02.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;}
@@ -107,11 +112,11 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom right;
+    background-position: top right;
   }
 }
 #button-3{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-03.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -124,12 +129,12 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom right;
+    background-position: bottom left;
   }
 }
 
 #button-4{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-04.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -149,7 +154,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-5{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-05.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -170,7 +175,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-6{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-06.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -191,7 +196,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-7{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-07.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -212,7 +217,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-8{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-08.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -231,7 +236,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-9{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-09.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -252,7 +257,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-10{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-10.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -271,7 +276,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-11{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-11.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
@@ -292,7 +297,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 
 #button-12{
-background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+background-image: url('../1-12.png');
 color: white;
 animation: moveBg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
