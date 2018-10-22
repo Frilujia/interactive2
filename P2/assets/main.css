@@ -1,0 +1,331 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+  background-color: #167193;
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+}
+
+
+h2 {
+	font-family:'Josefin Sans', sans-serif;;
+	font-size: 20px;
+  top: 200px;
+	text-align: center;
+  position: fixed;
+  text-align: justify;
+  line-height: 2;
+
+}
+
+/* container */
+.container{
+  display: grid;
+  grid-template-columns: repeat(6,240px);
+}
+
+/* items */
+
+
+
+.item {
+	height: 240px;
+	width: 240px;
+	background: white;
+	color: #167193;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: center; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+}
+
+.no-margin .item {
+  margin: 0px;
+}
+
+.no-margin .item:hover{
+  animation-play-state: paused;
+}
+
+.item{
+color: white;
+animation: moveBg 10s ease 1s 2 alternate none;
+animation-play-state: paused;
+}
+
+.item:hover{
+  animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+
+#button{
+    height: 61px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: center; 
+  transition: all 500ms ease; 
+  cursor: pointer;
+  font-size: 52px;
+  color:black;
+}
+
+
+#button-1{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-1:hover{
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-2{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;}
+
+#button-2:hover{
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+#button-3{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-3:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-4{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-4:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+#button-5{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-5:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-6{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-6:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-7{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-7:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-8{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-8:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+#button-9{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-9:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-10{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-10:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+#button-11{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-11:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-12{
+background-image: url('http://www.thome.com.sg/wp-content/uploads/2017/03/shutterstock_463996232-1-1024x662.jpg');
+color: white;
+animation: moveBg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-12:hover{
+
+animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveBg {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+  .container{
+  display: grid;
+  grid-template-columns: repeat(4,240px);
+}
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .container{
+  display: grid;
+  grid-template-columns: repeat(2,240px);
+}
+}
+
+
+
+
+
+
+
