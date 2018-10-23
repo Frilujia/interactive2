@@ -23,17 +23,18 @@ $(document).ready(function(){
 		$(this).next('.item').toggleClass('rotation');
 	});
 
-$(function() {
-  $('').click(function() {
-    $('.no-margin').css()
-  }
-}
+// $(function() {
+//   $('').click(function() {
+//     $('.no-margin').css()
+//   }
+// }
 
- $('.item').each(function(){
-        var imageNum = Math.floor(Math.random() * 10);
-        $(this).css('background-image', 'url(image-name-'+imageNum+')')
-    })
+var setNum = Math.floor(Math.random() * 6);
 
 
+$('.item').each(function(){
+       var imageNum = Math.floor(Math.random() * 11 + 1);
+       $(this).css('background-image', 'url('+setNum+'-'+imageNum+'.png)')
+   })
 
 });
