@@ -210,7 +210,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom right;
+    background-position: top bottom;
   }
 }
 
@@ -250,7 +250,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom right;
+    background-position: bottom left;
   }
 }
 
@@ -311,7 +311,7 @@ animation: moveBg 10s ease 0s 2 alternate none;
 
 @keyframes moveBg {
   100% {
-    background-position: bottom right;
+    background-position: bottom left;
   }
 }
 

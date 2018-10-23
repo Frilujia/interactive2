@@ -29,6 +29,11 @@ $(function() {
   }
 }
 
+ $('.item').each(function(){
+        var imageNum = Math.floor(Math.random() * 10);
+        $(this).css('background-image', 'url(image-name-'+imageNum+')')
+    })
+
 
 
 });
