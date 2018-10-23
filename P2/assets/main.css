@@ -3,7 +3,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-  background-color: #167193;
+
 }
 
 h1{
@@ -31,6 +31,8 @@ h2 {
 
 /* container */
 .container{
+  margin-top: 200px;
+  margin-bottom: 300px;
   display: grid;
   grid-template-columns: repeat(6,240px);
 }
@@ -87,15 +89,15 @@ animation-play-state: paused;
 #button-1{
 background-image: url('../1-01.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movebb 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-1:hover{
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movebb 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movebb {
   100% {
     background-position: bottom right;
   }
@@ -104,14 +106,14 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-2{
 background-image: url('../1-02.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveaa 10s ease 0s 2 alternate none;
 animation-play-state: paused;}
 
 #button-2:hover{
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveaa 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes moveaa {
   100% {
     background-position: top right;
   }
@@ -119,16 +121,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-3{
 background-image: url('../1-03.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movecc 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-3:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movecc 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movecc {
   100% {
     background-position: bottom left;
   }
@@ -137,16 +139,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-4{
 background-image: url('../1-04.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movej 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-4:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movej 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movej {
   100% {
     background-position: bottom right;
   }
@@ -157,16 +159,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-5{
 background-image: url('../1-05.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movee 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-5:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movee 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movee {
   100% {
     background-position: bottom right;
   }
@@ -178,16 +180,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-6{
 background-image: url('../1-06.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movef 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-6:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movef 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movef {
   100% {
     background-position: bottom right;
   }
@@ -199,18 +201,18 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-7{
 background-image: url('../1-07.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveg 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-7:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveg 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes moveg {
   100% {
-    background-position: top bottom;
+    background-position:bottom right;
   }
 }
 
@@ -220,16 +222,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-8{
 background-image: url('../1-08.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveh 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-8:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveh 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes moveh {
   100% {
     background-position: bottom right;
   }
@@ -239,16 +241,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-9{
 background-image: url('../1-09.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: mover 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-9:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: mover 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes mover {
   100% {
     background-position: bottom left;
   }
@@ -260,16 +262,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-10{
 background-image: url('../1-10.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveq 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-10:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: moveq 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes moveq {
   100% {
     background-position: bottom right;
   }
@@ -279,16 +281,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-11{
 background-image: url('../1-11.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movew 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-11:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movew 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movew {
   100% {
     background-position: bottom right;
   }
@@ -300,16 +302,16 @@ animation: moveBg 10s ease 0s 2 alternate none;
 #button-12{
 background-image: url('../1-12.png');
 color: white;
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movev 10s ease 0s 2 alternate none;
 animation-play-state: paused;
 }
 
 #button-12:hover{
 
-animation: moveBg 10s ease 0s 2 alternate none;
+animation: movev 10s ease 0s 2 alternate none;
 }
 
-@keyframes moveBg {
+@keyframes movev {
   100% {
     background-position: bottom left;
   }
