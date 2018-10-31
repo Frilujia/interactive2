@@ -1,0 +1,307 @@
+ html, body, div, p {
+  margin:0; padding:0;
+}
+    .box {
+      width: 100px; 
+      height: 100px; 
+      position:absolute; background-color:white; border:transparent; 1px;
+    }
+    .box1 {
+      top:30%; left:5%; z-index:10;
+      background-image: url('../4-4.png');
+      background-size:100%;
+    }
+    .box2 {
+      top:30%; left:25%; z-index:20;
+           background-image: url('../4-8.png');
+                 background-size:100%;
+    }
+    .box3 {
+      top:30%; left:45%; z-index:30;
+           background-image: url('../1-10.png');
+                 background-size:100%;
+    }
+    .box4 {
+      top:30%; left:65%; z-index:40;
+           background-image: url('../1-8.png');
+                 background-size:100%;
+    }
+    .box5 {
+      top:30%; left:85%; z-index:50;
+           background-image: url('../1-5.png');
+                 background-size:100%;
+    }
+
+/* items */
+
+
+
+.item {
+	height: 240px;
+	width: 240px;
+	background: white;
+	color: #167193;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: center; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+}
+
+.no-margin .item {
+  margin: 0px;
+}
+
+.no-margin .item:hover{
+  animation-play-state: paused;
+}
+
+.item{
+color: white;
+animation: moveBg 10s ease 1s 2 alternate none;
+animation-play-state: paused;
+}
+
+.item:hover{
+  animation: moveBg 10s ease 0s 2 alternate none;
+}
+
+
+#button{
+    height: 61px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: center; 
+  transition: all 500ms ease; 
+  cursor: pointer;
+  font-size: 52px;
+  color:black;
+}
+
+
+#button-1{
+background-image: url('../1-1.png');
+color: white;
+animation: movebb 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-1:hover{
+animation: movebb 10s ease 0s 2 alternate none;
+}
+
+@keyframes movebb {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-2{
+background-image: url('../1-2.png');
+color: white;
+animation: moveaa 10s ease 0s 2 alternate none;
+animation-play-state: paused;}
+
+#button-2:hover{
+animation: moveaa 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveaa {
+  100% {
+    background-position: top right;
+  }
+}
+#button-3{
+background-image: url('../1-3.png');
+color: white;
+animation: movecc 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-3:hover{
+
+animation: movecc 10s ease 0s 2 alternate none;
+}
+
+@keyframes movecc {
+  100% {
+    background-position: bottom left;
+  }
+}
+
+#button-4{
+background-image: url('../1-4.png');
+color: white;
+animation: movej 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-4:hover{
+
+animation: movej 10s ease 0s 2 alternate none;
+}
+
+@keyframes movej {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+#button-5{
+background-image: url('../1-5.png');
+color: white;
+animation: movee 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-5:hover{
+
+animation: movee 10s ease 0s 2 alternate none;
+}
+
+@keyframes movee {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-6{
+background-image: url('../1-6.png');
+color: white;
+animation: movef 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-6:hover{
+
+animation: movef 10s ease 0s 2 alternate none;
+}
+
+@keyframes movef {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-7{
+background-image: url('../1-7.png');
+color: white;
+animation: moveg 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-7:hover{
+
+animation: moveg 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveg {
+  100% {
+    background-position:bottom right;
+  }
+}
+
+
+
+
+#button-8{
+background-image: url('../1-8.png');
+color: white;
+animation: moveh 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-8:hover{
+
+animation: moveh 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveh {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+#button-9{
+background-image: url('../1-9.png');
+color: white;
+animation: mover 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-9:hover{
+
+animation: mover 10s ease 0s 2 alternate none;
+}
+
+@keyframes mover {
+  100% {
+    background-position: bottom left;
+  }
+}
+
+
+
+
+#button-10{
+background-image: url('../1-10.png');
+color: white;
+animation: moveq 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-10:hover{
+
+animation: moveq 10s ease 0s 2 alternate none;
+}
+
+@keyframes moveq {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+#button-11{
+background-image: url('../1-11.png');
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-11:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+#button-12{
+background-image: url('../1-12.png');
+color: white;
+animation: movev 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-12:hover{
+
+animation: movev 10s ease 0s 2 alternate none;
+}

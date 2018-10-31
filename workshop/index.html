@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CCA Workshop Template</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="assets/main.css" type="text/css" />
+</head>
+
+<body background="1-12.png">
+    <div class="draggable resizable box box1">
+        <p></p>
+    </div>
+    <div class="draggable resizable box box2">
+        <p></p>
+    </div>
+    <div class="draggable resizable box box3">
+        <p></p>
+    </div>
+    <div class="draggable resizable box box4">
+        <p></p>
+    </div>
+    <div class="draggable resizable box box5">
+        <p></p>
+    </div>
+    
+<!--jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( ".draggable" ).draggable();
+        } );
+        $( function() {
+            $( ".resizable" ).resizable();
+        } );
+    </script>
+</body>
+</html>
