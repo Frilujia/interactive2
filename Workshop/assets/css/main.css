@@ -117,6 +117,14 @@
   left: 530px;
 }
 
+#B10 {
+  position: absolute;
+  border: solid black 15px;
+  width: 120px;
+  height: 164px;
+  top: 315px;
+  left: 595px;
+}
 
 
 #B11 {

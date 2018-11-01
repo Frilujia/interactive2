@@ -35,7 +35,7 @@ h1
 	font-size: 35px;
 	color:lightslategrey;
 	margin-top: 200px;
-	margin-bottom:800px;
+	margin-bottom:300px;
 
 
 }
@@ -47,8 +47,8 @@ h1
 	font-family: impact;
 	font-style: italic;
 	color:#036B0D;
-	margin-top: 200px;
-	margin-bottom: 450px;
+	margin-top: 300px;
+	margin-bottom: 350px;
 }
 
 
@@ -57,21 +57,21 @@ h1
 	color: lightslategrey;
 	text-align: center;
 	margin-top: 0px;
-	margin-bottom: -25px;
+	margin-bottom: -55px;
 	font-family: impact;
-	font-size: 40px;
+	font-size: 140px;
 	margin-left: 0px;
 	margin-right:0px;
 }
 
 .projects
 {
-	margin-bottom: -25px;
+	margin-bottom: -55px;
 	color:#CE460C;
 	text-align: center;
-	margin-top: 600px;
+	margin-top: 300px;
 	font-family: impact;
-	font-size: 40px;
+	font-size: 140px;
 	margin-left: 0px;
 	margin-right:0px;
 }
