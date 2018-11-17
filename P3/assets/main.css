@@ -6,6 +6,12 @@
 
 }
 
-h1{
-	font-family: 'Dosis', sans-serif;;
+div{
+	font-family: 'Dosis', sans-serif;
+	font-size: 75px;
+	position: relative;
+}
+
+#painting3{
+
 }

@@ -7,13 +7,18 @@ $(document).ready(function(){
 
     $('.letter').hover(
         function() {
-            $('div').each(function() {
+            $(this).find('div').each(function() {
                 $(this).addClass('animation-' + Math.floor(Math.random() * 4 + 1));
+
+                $(this).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
+                    $(this).addClass('animation-' + Math.floor(Math.random() * 4 + 1));
+                });
             });
         }, function() {
             $('div').removeClass('animation-1 animation-2 animation-3 animation-4');
         }
     );
+    
 
     $(document).keypress(function(e) {
             

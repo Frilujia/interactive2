@@ -7,10 +7,10 @@
 }
 
 body {
-	background: #37708C;	
+	
 	color: white;
 	font-family: monaco;
-z-index: -109000;
+  z-index: -109000;
 	display: flex;
 	align-items: flex-end;
 	bottom:0px;
@@ -18,7 +18,7 @@ z-index: -109000;
 
   /*	justify-content: bottom;*/
 
-  	min-height: 100vh;
+  min-height: 100vh;
 }
 
 .noon {
@@ -48,7 +48,7 @@ z-index: -109000;
   background-color: #195E00;
 /*top: -10px;
 left:-10px;*/
-position:relative;
+  position:relative;
 }
 
 #rectanglem {
