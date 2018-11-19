@@ -1,16 +1,16 @@
 
 * {
 	margin: 0px;
+
 	
 /*	      animation: colorchange 50s;
       -webkit-animation: colorchange 50s; */
 }
 
 body {
-	
-	color: white;
+  background-size: cover;
+  background-position: center center;
 	font-family: monaco;
-  z-index: -109000;
 	display: flex;
 	align-items: flex-end;
 	bottom:0px;
@@ -21,9 +21,9 @@ body {
   min-height: 100vh;
 }
 
-.noon {
+/*.noon {
 	background: red;
-}
+}*/
 
 
 
