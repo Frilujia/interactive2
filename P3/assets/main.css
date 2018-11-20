@@ -308,7 +308,29 @@ left:560px;
 
 
 
+#PSinfo{
+top: 150px;
+left:20px;
+}
 
+
+/*#Gymnastikinfo{
+	top: 150px;
+left: 20px;
+}*/
+
+
+.pstable{
+	left: 1075px;
+	top:320px;
+	font-size: 15px;
+
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+}
 
 
 
