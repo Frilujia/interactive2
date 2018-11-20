@@ -9,9 +9,191 @@
 div{
 	font-family: 'Dosis', sans-serif;
 	font-size: 75px;
-	position: relative;
+	position: absolute;
 }
+
+.navtitle {
+	font-size: 4.5vw;
+}
+
+#painting1{
+	left:20px;
+	transition: 0.5s ease;
+}
+
+#painting1:hover {
+  animation: shift 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  filter: blur(1px);
+}
+
+@keyframes shift {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(70px, 0, 0);
+  }
+}
+
+
+
+
+#painting2{
+	right: 220px;
+	position: absolute;
+	transition: 0.5s ease;
+}
+
+#painting2:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  filter: blur(1px);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(6px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(16px, 0, 0);
+  }
+}
+
 
 #painting3{
+transform: rotate(90deg);
+top: 310px;
+right:-290px;
+}
+
+#painting4{
+transform: rotate(180deg);
+bottom:10px;
+right:20px;
+transition: 0.5s ease;
+}
+
+#painting4:hover{
+	filter: blur(7px);
+}
+
+#painting5{
+transform: rotate(180deg);
+bottom:10px;
+left:150px;
+}
+
+
+#painting6{
+transform: rotate(-90deg);
+position: absolute;
+bottom: 340px;
+left:-305px;
+}
+
+
+#artist{
+font-size: 25px;
+top: 430px;
+left:770px;
+transition: transform 5s ease;
+}
+
+
+
+#bio {
+
+font-size: 15px;
+width: 400px;
+text-align: justify;
+top: -200px;
+left: -140px;
+display: none;
+transition: transform 5s ease;
+}
+
+
+#imageofgr{
 
 }
+
+
+#artist:hover #bio {
+    display:block;
+}
+
+
+
+
+
+
+.navps {
+	font-size: 3vw;
+}
+
+
+
+#ps1{
+	left:20px;
+	transition: 0.5s ease;
+}
+
+
+#ps2{
+	right: 20px;
+	position: absolute;
+	transition: 0.5s ease;
+}
+
+
+#ps3{
+transform: rotate(90deg);
+top: 430px;
+right:-230px;
+}
+
+#ps4{
+transform: rotate(180deg);
+bottom:10px;
+right:20px;
+transition: 0.5s ease;
+}
+
+
+#ps5{
+transform: rotate(180deg);
+bottom:10px;
+left: 20px;
+}
+
+
+#ps6{
+transform: rotate(-90deg);
+position: absolute;
+top:430px;
+left:-230px;
+}
+
+
+#PortraitSchniewind{
+top: 300px;
+left:640px;
+transform: scale(2);
+}
+
+
