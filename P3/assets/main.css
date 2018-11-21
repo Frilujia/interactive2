@@ -77,8 +77,9 @@ div{
 
 #painting3{
 transform: rotate(90deg);
-top: 310px;
-right:-290px;
+top: 710px;
+right:0px;
+transform-origin: top right;
 }
 
 #painting4{
@@ -102,8 +103,10 @@ left:240px;
 #painting6{
 transform: rotate(-90deg);
 position: absolute;
-bottom: 310px;
-left:-275Px;
+bottom: -65px;
+left:-0px;
+
+transform-origin: top left;
 }
 
 
@@ -125,10 +128,10 @@ text-align: justify;
 top: -200px;
 left: -140px;
 opacity:0;
-transition:  all 1s ease;
+transition:  all 0.3s ease;
 }
 
-/*.name{
+.name{
   transition:  all 5s ease;
 }
 
@@ -143,16 +146,16 @@ transition:  all 1s ease;
 }
 
 
-*/
+
 
 #artist:hover #bio {
     opacity:1;
-    transition:  all 1s ease;
+    transition:  all 0.3s ease;
 }
 
 #artist:hover .name {
     opacity:0;
-    transition:  all 1s ease;
+    transition:  all 0.3s ease;
 }
 
 
@@ -181,8 +184,9 @@ transition:  all 1s ease;
 
 #ps3{
 transform: rotate(90deg);
-top: 430px;
-right:-230px;
+top: 730px;
+right:0px;
+transform-origin: top right;
 }
 
 #ps4{
@@ -203,8 +207,9 @@ left: 20px;
 #ps6{
 transform: rotate(-90deg);
 position: absolute;
-top:430px;
-left:-230px;
+top:730px;
+left:10px;
+transform-origin: top left;
 }
 
 
@@ -219,16 +224,18 @@ left:420px;
 
 #gy3{
 transform: rotate(90deg);
-top: 415px;
-right:-125px;
+top: 620px;
+right:0px;
+transform-origin: top right;
 }
 
 
 #gy6{
 transform: rotate(-90deg);
 position: absolute;
-top:430px;
-left:-123px;
+top:620px;
+left:10px;
+transform-origin: top left;
 }
 
 
@@ -241,16 +248,18 @@ left: 610px;
 
 #reader3{
 transform: rotate(90deg);
-top: 430px;
-right:-200px;
+top: 700px;
+right:10px;
+transform-origin: top right;
 }
 
 
 #reader6{
 transform: rotate(-90deg);
 position: absolute;
-top:430px;
-left:-200px;
+top:700px;
+left:10px;
+transform-origin: top left;
 }
 
 #reader{
@@ -262,16 +271,18 @@ left:390px;
 
 #ella3{
 transform: rotate(90deg);
-top: 410px;
-right:-125px;
+top: 630px;
+right:10px;
+transform-origin: top right;
 }
 
 
 #ella6{
 transform: rotate(-90deg);
 position: absolute;
-top:410px;
-left:-123px;
+top:630px;
+left:10px;
+transform-origin: top left;
 }
 
 
@@ -285,16 +296,18 @@ left:600px;
 
 #ta3{
 transform: rotate(90deg);
-top: 430px;
-right:-280px;
+top: 780px;
+right:10px;
+transform-origin: top right;
 }
 
 
 #ta6{
 transform: rotate(-90deg);
 position: absolute;
-top:430px;
-left:-280px;
+top:780px;
+left:10px;
+transform-origin: top left;
 }
 
 
@@ -309,16 +322,18 @@ left:560px;
 
 #s3{
 transform: rotate(90deg);
-top: 440px;
-right:-350px;
+top: 855px;
+right:10px;
+transform-origin: top right;
 }
 
 
 #s6{
 transform: rotate(-90deg);
 position: absolute;
-top:440px;
-left:-350px;
+top:855px;
+left:10px;
+transform-origin: top left;
 }
 
 #self{
@@ -328,12 +343,12 @@ left:560px;
 
 
 
-
+/*
 #PSinfo{
 top: 150px;
 left:20px;
 }
-
+*/
 
 /*#Gymnastikinfo{
 	top: 150px;
@@ -342,11 +357,12 @@ left: 20px;
 
 
 .pstable{
-	left: 1075px;
-	top:320px;
+	left: 730px;
+  top:810px;
 	font-size: 15px;
 
 }
+
 
 td, th {
     text-align: left;
