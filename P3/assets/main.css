@@ -122,14 +122,27 @@ left:770px;
 
 #bio {
 
-font-size: 15px;
+font-size: 14px;
+line-height: 25px;
 width: 400px;
 text-align: justify;
+
+font-family: raleway, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+/*font-family: obvia, sans-serif;
+font-weight: 100;
+font-style: normal;*/
+
 top: -200px;
 left: -140px;
 opacity:0;
 transition:  all 0.3s ease;
 }
+
+
+
 /*
 .name{
   transition:  all 5s ease;
