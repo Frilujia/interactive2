@@ -319,7 +319,7 @@ left:560px;
 
 #s3{
 transform: rotate(90deg);
-top: 855px;
+top: 845px;
 right:10px;
 transform-origin: top right;
 }
@@ -328,7 +328,7 @@ transform-origin: top right;
 #s6{
 transform: rotate(-90deg);
 position: absolute;
-top:855px;
+top:845px;
 left:10px;
 transform-origin: top left;
 }
@@ -355,15 +355,31 @@ left: 20px;
 
 .pstable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
+/*font-family: raleway, sans-serif;
+font-weight: 100;
+font-style: normal;*/
+}
 
+
+td{
+font-family: raleway, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+th{
+font-family: raleway,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 
 td, th {
     text-align: left;
     padding: 10px;
+    font-size: 14px;
 }
 
 
@@ -379,19 +395,19 @@ left:190px;
 
 #readerinfo{
 top: 150px;
-left:200px;
+left:160px;
 }
 
 .readertable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
 
 }
 
 .gytable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
 
 }
@@ -406,7 +422,7 @@ left:380px;
 
 .ellatable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
 
 }
@@ -428,7 +444,7 @@ left:340px;
 
 .tatable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
 
 }
@@ -443,7 +459,7 @@ left:325px;
 
 .selftable{
   left: 1130px;
-  top:325px;
+  top:310px;
   font-size: 15px;
 
 }
