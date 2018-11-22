@@ -130,7 +130,7 @@ left: -140px;
 opacity:0;
 transition:  all 0.3s ease;
 }
-
+/*
 .name{
   transition:  all 5s ease;
 }
@@ -146,7 +146,7 @@ transition:  all 0.3s ease;
 }
 
 
-
+*/
 
 #artist:hover #bio {
     opacity:1;
@@ -217,9 +217,6 @@ transform-origin: top left;
 top: 150px;
 left:420px;
 }
-
-
-
 
 
 #gy3{
@@ -357,9 +354,9 @@ left: 20px;
 
 
 .pstable{
-	left: 730px;
-  top:810px;
-	font-size: 15px;
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
 
 }
 
@@ -370,6 +367,86 @@ td, th {
 }
 
 
+
+
+#PortraitSchniewindinfo{
+top: 150px;
+left:190px;
+}
+
+
+
+
+#readerinfo{
+top: 150px;
+left:200px;
+}
+
+.readertable{
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
+
+}
+
+.gytable{
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
+
+}
+
+
+#Gymnastikinfo{
+top: 150px;
+left:380px;
+}
+
+
+
+.ellatable{
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
+
+}
+
+
+#ellainfo{
+top: 150px;
+left:360px;
+}
+
+
+
+
+#tainfo{
+top: 150px;
+left:340px;
+}
+
+
+.tatable{
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
+
+}
+
+
+
+#selfinfo{
+top: 150px;
+left:325px;
+}
+
+
+.selftable{
+  left: 1130px;
+  top:325px;
+  font-size: 15px;
+
+}
 
 
 
