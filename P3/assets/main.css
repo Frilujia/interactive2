@@ -140,6 +140,30 @@ left: -125px;
 opacity:0;
 transition:  all 0.3s ease;
 }
+/*
+.quote{
+  opacity: 0;
+  font-size: 14px;
+  width: 390px;
+  line-height: 25px;
+  text-align: justify;
+  left: -130px;
+  top: -85px;
+}
+
+
+
+.hometitle:hover .quote{
+    opacity:1;
+    transition:  all 0.3s ease;
+}
+
+.hometitle:hover .name {
+    opacity:0;
+    transition:  all 0.3s ease;
+}
+
+*/
 
 
 
