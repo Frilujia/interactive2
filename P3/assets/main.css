@@ -22,10 +22,11 @@ div{
 }
 
 #painting1:hover {
-  animation: shift 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
+/*  animation: shift 0.82s cubic-bezier(.36,.07,.19,.97) both;
+*/
+/*  transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  perspective: 1000px;
+  perspective: 1000px;*/
   filter: blur(1px);
 }
 
@@ -49,10 +50,10 @@ div{
 }
 
 #painting2:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
+/*  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;*/
+/*  transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  perspective: 1000px;
+  perspective: 1000px;*/
   filter: blur(1px);
 }
 
@@ -82,6 +83,10 @@ right:0px;
 transform-origin: top right;
 }
 
+#painting3:hover {
+  filter: blur(1px);
+}
+
 #painting4{
 transform: rotate(180deg);
 bottom:10px;
@@ -99,6 +104,10 @@ bottom:10px;
 left:240px;
 }
 
+#painting5:hover {
+  filter: blur(1px);
+}
+
 
 #painting6{
 transform: rotate(-90deg);
@@ -109,6 +118,9 @@ left:-0px;
 transform-origin: top left;
 }
 
+#painting6:hover {
+  filter: blur(1px);
+}
 
 #artist{
 font-size: 25px;
