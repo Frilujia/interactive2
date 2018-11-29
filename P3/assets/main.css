@@ -16,6 +16,68 @@ div{
 	font-size: 4.5vw;
 }
 
+
+
+
+.quote{
+  left:645px;
+  top: 450px;
+  width: 400px;
+/*  font-family: raleway, sans-serif;
+  font-weight: 200;
+  font-style: normal;*/
+  font-family: raleway, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+
+
+
+
+    -moz-animation: fadeout 0s ease-in 8s forwards;
+    -webkit-animation: fadeout 0s ease-in 8s forwards;
+    -o-animation: fadeout 0s ease-in 8s forwards;
+    animation: fadeout 0.3s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
+}
+
+@keyframes fadeout {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes fadeout {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+#landingimg{
+  top:255px;
+  left:770px;
+
+      -moz-animation: fadeout 0s ease-in 8s forwards;
+    -webkit-animation: fadeout 0s ease-in 8s forwards;
+    -o-animation: fadeout 0s ease-in 8s forwards;
+    animation: fadeout 0.3s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
+}
+
+
+
+
+
 #painting1{
 	left:20px;
 	transition: 0.5s ease;
@@ -30,7 +92,7 @@ div{
   filter: blur(3px);
 }
 
-@keyframes shift {
+/*@keyframes shift {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
@@ -40,7 +102,7 @@ div{
   }
 }
 
-
+*/
 
 
 #painting2{
@@ -56,7 +118,7 @@ div{
   perspective: 1000px;*/
   filter: blur(1px);
 }
-
+/*
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -73,7 +135,7 @@ div{
   40%, 60% {
     transform: translate3d(16px, 0, 0);
   }
-}
+}*/
 
 
 #painting3{
@@ -102,6 +164,7 @@ transition: 0.5s ease;
 transform: rotate(180deg);
 bottom:10px;
 left:240px;
+transition: 0.4s ease;
 }
 
 #painting5:hover {
@@ -115,6 +178,7 @@ position: absolute;
 bottom: -65px;
 left:-0px;
 
+transition: 0.5s ease;
 transform-origin: top left;
 }
 
@@ -126,10 +190,57 @@ transform-origin: top left;
 font-size: 25px;
 top: 430px;
 left:770px;
+/*filter: blur(0.7px);*/
+opacity: 0;
+
 /*transition: transform 5s ease;*/
 /*z-index: 0;*/
+    -moz-animation: fadein 0s ease-in 8s forwards;
+    -webkit-animation: fadein 0s ease-in 8s forwards;
+    -o-animation: fadein 0s ease-in 8s forwards;
+    animation: fadein 0.5s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
 }
 
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+@-webkit-keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+
+
+/*.hometitle{
+  opacity: 0;
+      -moz-animation: fadein 0s ease-in 8s forwards;
+    -webkit-animation: fadein 0s ease-in 8s forwards;
+    -o-animation: fadein 0s ease-in 8s forwards;
+    animation: fadein 0.2s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition: all 0.5s ease;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+@-webkit-keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}*/
 
 
 #bio {
