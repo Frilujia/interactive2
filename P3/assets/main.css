@@ -523,8 +523,8 @@ left:325px;
 
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+    * {
+        background-color: black;
     }
 }
 
