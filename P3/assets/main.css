@@ -35,11 +35,9 @@ div{
   text-align: center;
 
 
-
-
-    -moz-animation: fadeout 0s ease-in 8s forwards;
+/*    -moz-animation: fadeout 0s ease-in 8s forwards;
     -webkit-animation: fadeout 0s ease-in 8s forwards;
-    -o-animation: fadeout 0s ease-in 8s forwards;
+    -o-animation: fadeout 0s ease-in 8s forwards;*/
     animation: fadeout 0.3s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -48,15 +46,17 @@ div{
 
 @keyframes fadeout {
     to {
-        width:0;
+
+      opacity: 0;
+      pointer-events: none;
+    /*    width:0;
         height:0;
-        overflow:hidden;
+        overflow:hidden;*/
     }
 }
 @-webkit-keyframes fadeout {
     to {
-        width:0;
-        height:0;
+        opacity: 0;
         visibility:hidden;
     }
 }
@@ -64,10 +64,10 @@ div{
 #landingimg{
   top:255px;
   left:770px;
-
+/*
       -moz-animation: fadeout 0s ease-in 8s forwards;
     -webkit-animation: fadeout 0s ease-in 8s forwards;
-    -o-animation: fadeout 0s ease-in 8s forwards;
+    -o-animation: fadeout 0s ease-in 8s forwards;*/
     animation: fadeout 0.3s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -195,9 +195,9 @@ opacity: 0;
 
 /*transition: transform 5s ease;*/
 /*z-index: 0;*/
-    -moz-animation: fadein 0s ease-in 8s forwards;
+/*    -moz-animation: fadein 0s ease-in 8s forwards;
     -webkit-animation: fadein 0s ease-in 8s forwards;
-    -o-animation: fadein 0s ease-in 8s forwards;
+    -o-animation: fadein 0s ease-in 8s forwards;*/
     animation: fadein 0.5s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -374,8 +374,14 @@ transform-origin: top left;
 
 
 #PortraitSchniewind{
-top: 150px;
-left:420px;
+/*top: 150px;
+left:420px;*/
+
+left: 50%;
+top: 50%;
+margin-top: -320px;
+margin-left: -417px;
+transition:  all 0.3s ease;
 }
 
 
@@ -517,6 +523,8 @@ left: 20px;
   left: 1130px;
   top:310px;
   font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
 /*font-family: raleway, sans-serif;
 font-weight: 100;
 font-style: normal;*/
@@ -635,8 +643,10 @@ left:325px;
 
 @media only screen and (max-width: 600px) {
     * {
-        background-color: black;
+        background-color: red;
     }
+
+
 }
 
 
