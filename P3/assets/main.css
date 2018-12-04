@@ -44,6 +44,11 @@ div{
     transition:  all 0.3s ease;
 }
 
+.quote:hover{
+  filter: blur(9px);
+  transition:  all 0.5s ease;
+}
+
 @keyframes fadeout {
     to {
 
@@ -73,9 +78,6 @@ div{
     animation-fill-mode: forwards;
     transition:  all 0.3s ease;
 }
-
-
-
 
 
 #painting1{
@@ -112,11 +114,7 @@ div{
 }
 
 #painting2:hover {
-/*  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;*/
-/*  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;*/
-  filter: blur(1px);
+  filter: blur(12px); 
 }
 /*
 @keyframes shake {
@@ -265,6 +263,9 @@ left: -125px;
 opacity:0;
 transition:  all 0.3s ease;
 }
+
+
+
 /*
 .quote{
   opacity: 0;
@@ -336,6 +337,10 @@ transition:  all 0.3s ease;
 	transition: 0.5s ease;
 }
 
+#ps1:hover{
+  filter: blur(7px);
+  transition:  all 0.5s ease;
+}
 
 #ps2{
 	right: 20px;
@@ -344,11 +349,21 @@ transition:  all 0.3s ease;
 }
 
 
+#ps2:hover{
+  filter: blur(12px);
+  transition:  all 0.5s ease;
+}
+
 #ps3{
 transform: rotate(90deg);
 top: 730px;
 right:0px;
 transform-origin: top right;
+}
+
+#ps3:hover{
+  filter: blur(4px);
+  transition:  all 0.5s ease;
 }
 
 #ps4{
@@ -358,6 +373,10 @@ right:20px;
 transition: 0.5s ease;
 }
 
+#ps4:hover{
+  filter: blur(9px);
+  transition:  all 0.5s ease;
+}
 
 #ps5{
 transform: rotate(180deg);
@@ -365,6 +384,10 @@ bottom:10px;
 left: 20px;
 }
 
+#ps5:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
 
 #ps6{
 transform: rotate(-90deg);
@@ -374,6 +397,10 @@ left:10px;
 transform-origin: top left;
 }
 
+#ps6:hover{
+  filter: blur(2px);
+  transition:  all 0.5s ease;
+}
 
 #PortraitSchniewind{
 /*top: 150px;
@@ -383,7 +410,12 @@ left: 50%;
 top: 50%;
 margin-top: -320px;
 margin-left: -417px;
-transition:  all 0.3s ease;
+transition:  all 0.5s ease;
+}
+
+#PortraitSchniewind:hover{
+  filter: blur(9px);
+  transition:  all 0.3s ease;
 }
 
 
@@ -407,11 +439,29 @@ transform-origin: top left;
 #Gymnastik{
 top: 150px;
 left: 610px;
+transition:  all 0.3s ease;
 }
 
  #Gymnastik img{
   height: 620px;
 }
+
+#gy3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#gy6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#Gymnastik:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
+
+
 
 
 #reader3{
@@ -433,6 +483,24 @@ transform-origin: top left;
 #reader{
 top: 150px;
 left:390px;
+transition:  all 0.3s ease;
+}
+
+
+
+#reader3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#reader6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#reader:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
 }
 
 
@@ -445,6 +513,7 @@ transform-origin: top right;
 }
 
 
+
 #ella6{
 transform: rotate(-90deg);
 position: absolute;
@@ -454,12 +523,28 @@ transform-origin: top left;
 }
 
 
-#ella{
-top: 150px;
-left:600px;
+#ella3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#ella6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#ella:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
 }
 
 
+
+#ella{
+top: 150px;
+left:600px;
+transition:  all 0.3s ease;
+}
 
 
 #ta3{
@@ -482,10 +567,24 @@ transform-origin: top left;
 #ta{
 top: 150px;
 left:560px;
+  transition:  all 0.5s ease;
 }
 
 
+#ta3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
 
+#ta6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#ta:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
 
 
 #s3{
@@ -507,21 +606,25 @@ transform-origin: top left;
 #self{
 top: 150px;
 left:560px;
+transition:  all 0.5s ease;
 }
 
 
 
-/*
-#PSinfo{
-top: 150px;
-left:20px;
+#s3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
 }
-*/
 
-/*#Gymnastikinfo{
-	top: 150px;
-left: 20px;
-}*/
+#s6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#self:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
 
 
 .pstable{
@@ -529,7 +632,7 @@ left: 20px;
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.3s ease;
+  transition:  all 0.8s ease;
 /*font-family: raleway, sans-serif;
 font-weight: 100;
 font-style: normal;*/
@@ -566,82 +669,52 @@ td, th {
 
 
 
-#PortraitSchniewindinfo{
-top: 150px;
-left:190px;
-}
 
-
-
-
-#readerinfo{
-top: 150px;
-left:160px;
-}
 
 .readertable{
   left: 1130px;
   top:310px;
   font-size: 15px;
-
+  opacity: 0;
+  transition:  all 0.8s ease;
 }
 
 .gytable{
-  left: 1130px;
+  left: 950px;
   top:310px;
   font-size: 15px;
-
-}
-
-
-#Gymnastikinfo{
-top: 150px;
-left:380px;
+  opacity: 0;
+  transition:  all 0.8s ease;
 }
 
 
 
 .ellatable{
-  left: 1130px;
+  left: 950px;
   top:310px;
   font-size: 15px;
+  opacity: 0;
+  transition:  all 0.8s ease;
 
 }
 
-
-#ellainfo{
-top: 150px;
-left:360px;
-}
-
-
-
-
-#tainfo{
-top: 150px;
-left:340px;
-}
 
 
 .tatable{
-  left: 1130px;
+  left: 950px;
   top:310px;
   font-size: 15px;
-
-}
-
-
-
-#selfinfo{
-top: 150px;
-left:325px;
+  opacity: 0;
+  transition:  all 0.8s ease;
 }
 
 
 .selftable{
-  left: 1130px;
+  left: 960px;
   top:310px;
-  font-size: 15px;
+  font-size: 15px;  
+  opacity: 0;
+  transition:  all 0.8s ease;
 
 }
 
