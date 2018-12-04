@@ -18,9 +18,13 @@
 
 $( document ).ready(function() {
 	$("#PortraitSchniewind").click(function(){
-		$(this).css('margin-left', -200)
+		$(this).css('margin-left', -650)
 		$('.pstable').css('opacity',1)
 	})
 
+	// $("#PortraitSchniewind").click(function(){
+	// 	$(this).css('margin-left', -200)
+	// 	$('.pstable').css('opacity',1)
+	// })
 
 });

@@ -204,6 +204,8 @@ opacity: 0;
     transition:  all 0.3s ease;
 }
 
+
+
 @keyframes fadein {
     to {
         opacity: 1;
@@ -407,6 +409,9 @@ top: 150px;
 left: 610px;
 }
 
+ #Gymnastik img{
+  height: 620px;
+}
 
 
 #reader3{
@@ -643,7 +648,28 @@ left:325px;
 
 @media only screen and (max-width: 600px) {
     * {
-        background-color: red;
+        /*background-color: red;*/
+    }
+
+    .navs {
+      display: none;
+    }
+
+    #ps1 {
+      font-size: 24px;
+      display: block;
+    }
+
+    #Gymnastik {
+      width: 80%;
+      left: 10%;
+      top: 100px;
+      position: relative;
+    }
+
+    #Gymnastik img {
+      width: 100%;
+      height: auto;
     }
 
 
