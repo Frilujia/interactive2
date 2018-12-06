@@ -18,6 +18,7 @@
 
 $( document ).ready(function() {
 	$("#PortraitSchniewind").click(function(){
+		$('body').toggleClass('blur');		
 		$(this).toggleClass('goleftps')
 		$('.pstable').toggleClass('goopacity')
 	})
@@ -29,6 +30,7 @@ $( document ).ready(function() {
 
 
 	$("#Gymnastik").click(function(){
+		$('body').toggleClass('blur');	
 		$(this).toggleClass('goleft')
 		$('.gytable').toggleClass('goopacity')
 		
@@ -41,6 +43,7 @@ $( document ).ready(function() {
 
 
 	$("#reader").click(function(){
+		$('body').toggleClass('blur');	
 		$(this).toggleClass('goleft')
 		$('.readertable').toggleClass('goopacity')
 	})
@@ -52,6 +55,7 @@ $( document ).ready(function() {
 
 
 	$("#ella").click(function(){
+		$('body').toggleClass('blur');	
 		$(this).toggleClass('goleft')
 		$('.ellatable').toggleClass('goopacity')
 	})
@@ -63,6 +67,7 @@ $( document ).ready(function() {
 
 
 	$("#ta").click(function(){
+		$('body').toggleClass('blur');	
 		$(this).toggleClass('goleftta')
 		$('.tatable').toggleClass('goopacity')
 	})
@@ -74,6 +79,7 @@ $( document ).ready(function() {
 
 
 	$("#self").click(function(){
+		$('body').toggleClass('blur');	
 		$(this).toggleClass('goleftself')
 		$('.selftable').toggleClass('goopacity')
 	})
