@@ -14,19 +14,35 @@ div{
 
 .navtitle {
 	font-size: 4.5vw;
-  animation: landingblur 10s ease-out infinite;
-  -webkit-animation: blur 10s ease-out infinite;
 }
 
-@keyframes landingblur {
-  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
 
+
+
+
+.hometitle{
+animation: clearIn 8s linear;
 }
 
-@-webkit-keyframes landingblur {
-  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+@keyframes clearIn {
+      filter: blur(12px);
+    }
 
+    to {
+        filter: blur(0);
+    }
 }
+
+@-webkit-keyframes clearIn {
+    from {
+      filter: blur(12px);
+    }
+
+    to {
+        filter: blur(0);
+    }
+}
+
 
 
 
@@ -719,7 +735,7 @@ table {
 
 
 
-#Gymnastik .navs{
+#PortraitSchniewind img .navs{
   filter: blur(10px);
 }
 
