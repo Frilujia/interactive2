@@ -21,11 +21,12 @@ div{
 
 
 .hometitle{
-animation: clearIn 8s linear;
+animation: clearIn 10s linear;
 }
 
 @keyframes clearIn {
-      filter: blur(12px);
+  from{
+      filter: blur(15px);
     }
 
     to {
@@ -35,7 +36,7 @@ animation: clearIn 8s linear;
 
 @-webkit-keyframes clearIn {
     from {
-      filter: blur(12px);
+      filter: blur(15px);
     }
 
     to {
@@ -48,12 +49,12 @@ animation: clearIn 8s linear;
 
 
 .quote{
-  left:645px;
-  top: 450px;
-  width: 400px;
+  left:520px;
+  top: 460px;
+  width: 650px;
 
   font-family: raleway, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   
   font-size: 14px;
@@ -84,8 +85,10 @@ animation: clearIn 8s linear;
     }
 }
 
+
+
 #landingimg{
-  top:255px;
+  top:265px;
   left:770px;
 
 
@@ -94,6 +97,7 @@ animation: clearIn 8s linear;
     animation-fill-mode: forwards;
     transition:  all 0.3s ease;
 }
+
 
 
 #painting1{
@@ -382,7 +386,7 @@ transform-origin: top left;
 
 #PortraitSchniewind{
 top: 150px;
-left:390px;
+left:415px;
 transition:  all 0.5s ease;
 }
 
@@ -713,7 +717,7 @@ table {
 
 
 .goleftps{
-  margin-left:-250px;
+  margin-left:-200px;
 
 }
 
