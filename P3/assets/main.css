@@ -738,12 +738,9 @@ table {
 }
 
 
-
-#PortraitSchniewind img .navs{
-  filter: blur(10px);
+body.blur .navs{
+ filter: blur(10px);
 }
-
-
 
 
 
