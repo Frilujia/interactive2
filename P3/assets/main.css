@@ -14,6 +14,18 @@ div{
 
 .navtitle {
 	font-size: 4.5vw;
+  animation: landingblur 10s ease-out infinite;
+  -webkit-animation: blur 10s ease-out infinite;
+}
+
+@keyframes landingblur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+
+}
+
+@-webkit-keyframes landingblur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+
 }
 
 
@@ -23,9 +35,7 @@ div{
   left:645px;
   top: 450px;
   width: 400px;
-/*  font-family: raleway, sans-serif;
-  font-weight: 200;
-  font-style: normal;*/
+
   font-family: raleway, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -35,18 +45,10 @@ div{
   text-align: center;
 
 
-/*    -moz-animation: fadeout 0s ease-in 8s forwards;
-    -webkit-animation: fadeout 0s ease-in 8s forwards;
-    -o-animation: fadeout 0s ease-in 8s forwards;*/
     animation: fadeout 0.3s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     transition:  all 0.3s ease;
-}
-
-.quote:hover{
-  filter: blur(9px);
-  transition:  all 0.5s ease;
 }
 
 @keyframes fadeout {
@@ -69,10 +71,8 @@ div{
 #landingimg{
   top:255px;
   left:770px;
-/*
-      -moz-animation: fadeout 0s ease-in 8s forwards;
-    -webkit-animation: fadeout 0s ease-in 8s forwards;
-    -o-animation: fadeout 0s ease-in 8s forwards;*/
+
+
     animation: fadeout 0.3s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -86,25 +86,9 @@ div{
 }
 
 #painting1:hover {
-/*  animation: shift 0.82s cubic-bezier(.36,.07,.19,.97) both;
-*/
-/*  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;*/
+
   filter: blur(3px);
 }
-
-/*@keyframes shift {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(70px, 0, 0);
-  }
-}
-
-*/
 
 
 #painting2{
@@ -116,24 +100,6 @@ div{
 #painting2:hover {
   filter: blur(12px); 
 }
-/*
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(6px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(16px, 0, 0);
-  }
-}*/
 
 
 #painting3{
@@ -166,7 +132,7 @@ transition: 0.4s ease;
 }
 
 #painting5:hover {
-  filter: blur(6px);
+  filter: blur(30px);
 }
 
 
@@ -191,11 +157,7 @@ left:770px;
 /*filter: blur(0.7px);*/
 opacity: 0;
 
-/*transition: transform 5s ease;*/
-/*z-index: 0;*/
-/*    -moz-animation: fadein 0s ease-in 8s forwards;
-    -webkit-animation: fadein 0s ease-in 8s forwards;
-    -o-animation: fadein 0s ease-in 8s forwards;*/
+
     animation: fadein 0.5s ease-in 8s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -313,12 +275,12 @@ transition:  all 0.3s ease;
 
 #artist:hover #bio {
     opacity:1;
-    transition:  all 0.3s ease;
+    transition:  all 0.8s ease;
 }
 
 #artist:hover .name {
     opacity:0;
-    transition:  all 0.3s ease;
+    transition:  all 0.8s ease;
 }
 
 
@@ -374,7 +336,7 @@ transition: 0.5s ease;
 }
 
 #ps4:hover{
-  filter: blur(9px);
+  filter: blur(2px);
   transition:  all 0.5s ease;
 }
 
@@ -385,7 +347,7 @@ left: 20px;
 }
 
 #ps5:hover{
-  filter: blur(3px);
+  filter: blur(30px);
   transition:  all 0.5s ease;
 }
 
@@ -403,19 +365,15 @@ transform-origin: top left;
 }
 
 #PortraitSchniewind{
-/*top: 150px;
-left:420px;*/
-
-left: 50%;
-top: 50%;
-margin-top: -320px;
-margin-left: -417px;
+top: 150px;
+left:390px;
 transition:  all 0.5s ease;
 }
 
 #PortraitSchniewind:hover{
   filter: blur(9px);
-  transition:  all 0.3s ease;
+  transition:  all 0.5s ease;
+  cursor:pointer;
 }
 
 
@@ -439,7 +397,8 @@ transform-origin: top left;
 #Gymnastik{
 top: 150px;
 left: 610px;
-transition:  all 0.3s ease;
+z-index: 10000px;
+transition:  all 0.5s ease;
 }
 
  #Gymnastik img{
@@ -459,6 +418,8 @@ transition:  all 0.3s ease;
 #Gymnastik:hover{
   filter: blur(6px);
   transition:  all 0.5s ease;
+  cursor:pointer;
+
 }
 
 
@@ -483,7 +444,7 @@ transform-origin: top left;
 #reader{
 top: 150px;
 left:390px;
-transition:  all 0.3s ease;
+transition:  all 0.4s ease;
 }
 
 
@@ -499,7 +460,7 @@ transition:  all 0.3s ease;
 }
 
 #reader:hover{
-  filter: blur(6px);
+  filter: blur(9px);
   transition:  all 0.5s ease;
 }
 
@@ -567,7 +528,7 @@ transform-origin: top left;
 #ta{
 top: 150px;
 left:560px;
-  transition:  all 0.5s ease;
+  transition:  all 0.8s ease;
 }
 
 
@@ -606,7 +567,7 @@ transform-origin: top left;
 #self{
 top: 150px;
 left:560px;
-transition:  all 0.5s ease;
+transition:  all 0.8s ease;
 }
 
 
@@ -632,7 +593,8 @@ transition:  all 0.5s ease;
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
+  pointer-events: none;
 /*font-family: raleway, sans-serif;
 font-weight: 100;
 font-style: normal;*/
@@ -666,6 +628,10 @@ td, th {
     font-size: 14px;
 }
 
+table {
+  z-index: -10000px;
+}
+
 
 
 
@@ -676,7 +642,7 @@ td, th {
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
 }
 
 .gytable{
@@ -684,7 +650,8 @@ td, th {
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
+  pointer-events: none;
 }
 
 
@@ -694,7 +661,7 @@ td, th {
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
 
 }
 
@@ -705,7 +672,7 @@ td, th {
   top:310px;
   font-size: 15px;
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
 }
 
 
@@ -714,9 +681,53 @@ td, th {
   top:310px;
   font-size: 15px;  
   opacity: 0;
-  transition:  all 0.8s ease;
+  transition:  all 0.3s ease;
 
 }
+
+
+
+
+
+
+.goleft{
+  margin-left:-200px;
+
+}
+
+
+.goleftps{
+  margin-left:-250px;
+
+}
+
+.goleftta{
+  margin-left:-220px;
+
+}
+
+.goleftself{
+  margin-left:-240px;
+
+}
+
+
+.goopacity{
+  opacity:1;
+
+}
+
+
+
+#Gymnastik .navs{
+  filter: blur(10px);
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -738,7 +749,7 @@ td, th {
       left: 10%;
       top: 100px;
       position: relative;
-    }
+          }
 
     #Gymnastik img {
       width: 100%;
@@ -747,31 +758,6 @@ td, th {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

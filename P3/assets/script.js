@@ -18,48 +18,64 @@
 
 $( document ).ready(function() {
 	$("#PortraitSchniewind").click(function(){
-		$(this).css('margin-left', -650)
-		$('.pstable').css('opacity',1)
+		$(this).toggleClass('goleftps')
+		$('.pstable').toggleClass('goopacity')
 	})
+
+
+
 
 
 
 
 	$("#Gymnastik").click(function(){
-		$(this).css('margin-left', -200)
-		$('.gytable').css('opacity',1)
+		$(this).toggleClass('goleft')
+		$('.gytable').toggleClass('goopacity')
+		
 	})
+
+
+
 
 
 
 
 	$("#reader").click(function(){
-		$(this).css('margin-left', -200)
-		$('.readertable').css('opacity',1)
+		$(this).toggleClass('goleft')
+		$('.readertable').toggleClass('goopacity')
 	})
+
+
+
 
 
 
 
 	$("#ella").click(function(){
-		$(this).css('margin-left', -200)
-		$('.ellatable').css('opacity',1)
+		$(this).toggleClass('goleft')
+		$('.ellatable').toggleClass('goopacity')
 	})
+
+
+
 
 
 
 
 	$("#ta").click(function(){
-		$(this).css('margin-left', -220)
-		$('.tatable').css('opacity',1)
+		$(this).toggleClass('goleftta')
+		$('.tatable').toggleClass('goopacity')
 	})
 
 
 
 
+
+
+
 	$("#self").click(function(){
-		$(this).css('margin-left', -240)
-		$('.selftable').css('opacity',1)
+		$(this).toggleClass('goleftself')
+		$('.selftable').toggleClass('goopacity')
 	})
 
 
