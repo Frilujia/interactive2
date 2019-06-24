@@ -1,0 +1,795 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+div{
+	font-family: 'Dosis', sans-serif;
+	font-size: 75px;
+	position: absolute;
+}
+
+.navtitle {
+	font-size: 4.5vw;
+}
+
+
+
+
+
+.hometitle{
+animation: clearIn 10s linear;
+}
+
+@keyframes clearIn {
+  from{
+      filter: blur(15px);
+    }
+
+    to {
+        filter: blur(0);
+    }
+}
+
+@-webkit-keyframes clearIn {
+    from {
+      filter: blur(15px);
+    }
+
+    to {
+        filter: blur(0);
+    }
+}
+
+
+
+
+
+.quote{
+  left:520px;
+  top: 510px;
+  width: 650px;
+
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+
+
+    animation: fadeout 0.3s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
+}
+
+@keyframes fadeout {
+    to {
+
+      opacity: 0;
+      pointer-events: none;
+    /*    width:0;
+        height:0;
+        overflow:hidden;*/
+    }
+}
+@-webkit-keyframes fadeout {
+    to {
+        opacity: 0;
+        visibility:hidden;
+    }
+}
+
+
+
+#landingimg{
+  top:275px;
+  left:770px;
+
+
+    animation: fadeout 0.3s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
+}
+
+
+
+#painting1{
+	left:20px;
+	transition: 0.5s ease;
+}
+
+#painting1:hover {
+
+  filter: blur(3px);
+}
+
+
+#painting2{
+	right: 220px;
+	position: absolute;
+	transition: 0.5s ease;
+}
+
+#painting2:hover {
+  filter: blur(12px); 
+}
+
+
+#painting3{
+transform: rotate(90deg);
+top: 710px;
+right:0px;
+transform-origin: top right;
+}
+
+#painting3:hover {
+  filter: blur(1px);
+}
+
+#painting4{
+transform: rotate(180deg);
+bottom:10px;
+right:20px;
+transition: 0.5s ease;
+}
+
+#painting4:hover{
+	filter: blur(7px);
+}
+
+#painting5{
+transform: rotate(180deg);
+bottom:10px;
+left:240px;
+transition: 0.4s ease;
+}
+
+#painting5:hover {
+  filter: blur(30px);
+}
+
+
+#painting6{
+transform: rotate(-90deg);
+position: absolute;
+bottom: -65px;
+left:-0px;
+
+transition: 0.5s ease;
+transform-origin: top left;
+}
+
+#painting6:hover {
+  filter: blur(3px);
+}
+
+#artist{
+font-size: 25px;
+top: 430px;
+left:770px;
+/*filter: blur(0.7px);*/
+opacity: 0;
+
+
+    animation: fadein 0.5s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition:  all 0.3s ease;
+}
+
+
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+@-webkit-keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+
+
+/*.hometitle{
+  opacity: 0;
+      -moz-animation: fadein 0s ease-in 8s forwards;
+    -webkit-animation: fadein 0s ease-in 8s forwards;
+    -o-animation: fadein 0s ease-in 8s forwards;
+    animation: fadein 0.2s ease-in 8s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    transition: all 0.5s ease;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}
+@-webkit-keyframes fadein {
+    to {
+        opacity: 1;
+        transition:  all 0.3s ease;
+    }
+}*/
+
+
+#bio {
+
+font-size: 14px;
+line-height: 25px;
+width: 400px;
+text-align: justify;
+
+font-family: raleway, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+/*font-family: obvia, sans-serif;
+font-weight: 100;
+font-style: normal;*/
+
+top: -200px;
+left: -125px;
+opacity:0;
+transition:  all 0.3s ease;
+}
+
+
+
+/*
+.quote{
+  opacity: 0;
+  font-size: 14px;
+  width: 390px;
+  line-height: 25px;
+  text-align: justify;
+  left: -130px;
+  top: -85px;
+}
+
+
+
+.hometitle:hover .quote{
+    opacity:1;
+    transition:  all 0.3s ease;
+}
+
+.hometitle:hover .name {
+    opacity:0;
+    transition:  all 0.3s ease;
+}
+
+*/
+
+
+
+/*
+.name{
+  transition:  all 5s ease;
+}
+
+.show{
+  opacity: 1 !important;
+  transition:  all 5s ease;
+}
+
+.hide{
+  opacity: 0;
+  transition:  all 5s ease;
+}
+
+
+*/
+
+#artist:hover #bio {
+    opacity:1;
+    transition:  all 0.8s ease;
+}
+
+#artist:hover .name {
+    opacity:0;
+    transition:  all 0.8s ease;
+}
+
+
+
+
+
+
+.navs {
+	font-size: 3vw;
+}
+
+
+
+#ps1{
+	left:20px;
+	transition: 0.5s ease;
+}
+
+#ps1:hover{
+  filter: blur(7px);
+  transition:  all 0.5s ease;
+}
+
+#ps2{
+	right: 20px;
+	position: absolute;
+	transition: 0.5s ease;
+}
+
+
+#ps2:hover{
+  filter: blur(12px);
+  transition:  all 0.5s ease;
+}
+
+#ps3{
+transform: rotate(90deg);
+top: 730px;
+right:0px;
+transform-origin: top right;
+}
+
+#ps3:hover{
+  filter: blur(4px);
+  transition:  all 0.5s ease;
+}
+
+#ps4{
+transform: rotate(180deg);
+bottom:10px;
+right:20px;
+transition: 0.5s ease;
+}
+
+#ps4:hover{
+  filter: blur(2px);
+  transition:  all 0.5s ease;
+}
+
+#ps5{
+transform: rotate(180deg);
+bottom:10px;
+left: 20px;
+}
+
+#ps5:hover{
+  filter: blur(30px);
+  transition:  all 0.5s ease;
+}
+
+#ps6{
+transform: rotate(-90deg);
+position: absolute;
+top:730px;
+left:10px;
+transform-origin: top left;
+}
+
+#ps6:hover{
+  filter: blur(2px);
+  transition:  all 0.5s ease;
+}
+
+#PortraitSchniewind{
+top: 150px;
+left:415px;
+transition:  all 0.5s ease;
+}
+
+#PortraitSchniewind:hover{
+  filter: blur(9px);
+  transition:  all 0.5s ease;
+  cursor:pointer;
+}
+
+
+#gy3{
+transform: rotate(90deg);
+top: 620px;
+right:0px;
+transform-origin: top right;
+}
+
+
+#gy6{
+transform: rotate(-90deg);
+position: absolute;
+top:620px;
+left:10px;
+transform-origin: top left;
+}
+
+
+#Gymnastik{
+top: 150px;
+left: 610px;
+z-index: 10000px;
+transition:  all 0.5s ease;
+}
+
+ #Gymnastik img{
+  height: 620px;
+}
+
+#gy3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#gy6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#Gymnastik:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+  cursor:pointer;
+
+}
+
+
+
+
+#reader3{
+transform: rotate(90deg);
+top: 700px;
+right:10px;
+transform-origin: top right;
+}
+
+
+#reader6{
+transform: rotate(-90deg);
+position: absolute;
+top:700px;
+left:10px;
+transform-origin: top left;
+}
+
+#reader{
+top: 150px;
+left:390px;
+transition:  all 0.4s ease;
+}
+
+
+
+#reader3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#reader6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#reader:hover{
+  filter: blur(9px);
+  transition:  all 0.5s ease;
+}
+
+
+
+#ella3{
+transform: rotate(90deg);
+top: 630px;
+right:10px;
+transform-origin: top right;
+}
+
+
+
+#ella6{
+transform: rotate(-90deg);
+position: absolute;
+top:630px;
+left:10px;
+transform-origin: top left;
+}
+
+
+#ella3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#ella6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#ella:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
+
+
+
+#ella{
+top: 150px;
+left:600px;
+transition:  all 0.3s ease;
+}
+
+
+#ta3{
+transform: rotate(90deg);
+top: 780px;
+right:10px;
+transform-origin: top right;
+}
+
+
+#ta6{
+transform: rotate(-90deg);
+position: absolute;
+top:780px;
+left:10px;
+transform-origin: top left;
+}
+
+
+#ta{
+top: 150px;
+left:560px;
+  transition:  all 0.8s ease;
+}
+
+
+#ta3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#ta6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#ta:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
+
+
+#s3{
+transform: rotate(90deg);
+top: 845px;
+right:10px;
+transform-origin: top right;
+}
+
+
+#s6{
+transform: rotate(-90deg);
+position: absolute;
+top:845px;
+left:10px;
+transform-origin: top left;
+}
+
+#self{
+top: 150px;
+left:560px;
+transition:  all 0.8s ease;
+}
+
+
+
+#s3:hover{
+  filter: blur(3px);
+  transition:  all 0.3s ease;
+}
+
+#s6:hover{
+  filter: blur(3px);
+  transition:  all 0.5s ease;
+}
+
+#self:hover{
+  filter: blur(6px);
+  transition:  all 0.5s ease;
+}
+
+
+.pstable{
+  left: 1130px;
+  top:310px;
+  font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
+  pointer-events: none;
+/*font-family: raleway, sans-serif;
+font-weight: 100;
+font-style: normal;*/
+}
+
+
+td{
+font-family: raleway, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+/*font-family: obvia, sans-serif;
+font-weight: 100;
+font-style: normal;*/
+}
+
+th{
+font-family: raleway,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+/*font-family: obvia, sans-serif;
+font-weight: 400;
+font-style: normal;*/
+}
+
+
+td, th {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table {
+  z-index: -10000px;
+}
+
+
+
+
+
+
+.readertable{
+  left: 1130px;
+  top:310px;
+  font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
+}
+
+.gytable{
+  left: 950px;
+  top:310px;
+  font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
+  pointer-events: none;
+}
+
+
+
+.ellatable{
+  left: 950px;
+  top:310px;
+  font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
+
+}
+
+
+
+.tatable{
+  left: 950px;
+  top:310px;
+  font-size: 15px;
+  opacity: 0;
+  transition:  all 0.3s ease;
+}
+
+
+.selftable{
+  left: 960px;
+  top:310px;
+  font-size: 15px;  
+  opacity: 0;
+  transition:  all 0.3s ease;
+
+}
+
+
+
+
+
+
+.goleft{
+  margin-left:-200px;
+
+}
+
+
+.goleftps{
+  margin-left:-200px;
+
+}
+
+.goleftta{
+  margin-left:-220px;
+
+}
+
+.goleftself{
+  margin-left:-240px;
+
+}
+
+
+.goopacity{
+  opacity:1;
+
+}
+
+
+body.blur .navs{
+ filter: blur(10px);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        /*background-color: red;*/
+    }
+
+    .navs {
+      display: none;
+    }
+
+    #ps1 {
+      font-size: 24px;
+      display: block;
+    }
+
+    #Gymnastik {
+      width: 80%;
+      left: 10%;
+      top: 100px;
+      position: relative;
+          }
+
+    #Gymnastik img {
+      width: 100%;
+      height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
