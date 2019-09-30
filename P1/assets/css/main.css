@@ -37,21 +37,21 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:700px;
+  left:800px;
   top:350px;
   border: 1px ;
-    filter: blur(6px);
+/*    filter: blur(6px);*/
     transform: scale(2,2);
 
 }
 
-.letterss:hover {
+/*.letterss:hover {
     filter: blur(3px);
-}
+}*/
 
 .ss1{
     position: absolute;
-    top: 10px;
+    top: 9px;
     left: 68px;
     width: 51.5px;
     height: 30px;
@@ -62,7 +62,7 @@ body{
 
 .ss2{
     position: absolute;
-    top: 7px;
+    top: 6px;
     left: 71px;
     width: 51.5px;
     height: 30px;
@@ -73,7 +73,7 @@ body{
 
 .ss3{
     position: absolute;
-    top: 4px;
+    top: 3px;
     left: 74px;
     width: 51.5px;
     height: 30px;
@@ -84,7 +84,7 @@ body{
 
 .ss4{
     position: absolute;
-    top: 41px;
+    top: 40px;
     left: 68px;
     width: 27px;
     height: 35px;
@@ -96,7 +96,7 @@ body{
 
 .ss5{
     position: absolute;
-    top: 38px;
+    top: 37px;
     left: 71px;
     width: 27px;
     height: 35px;
@@ -108,7 +108,7 @@ body{
 
 .ss6{
     position: absolute;
-    top: 35px;
+    top: 34px;
     left: 74px;
     width: 27px;
     height:35px;
@@ -120,7 +120,7 @@ body{
 
 .ss7{
     position: absolute;
-    top: 76px;
+    top: 75px;
     left: 95px;
     width: 26px;
     height:12.5px;
@@ -132,7 +132,7 @@ body{
 
 .ss8{
     position: absolute;
-    top: 73px;
+    top: 72px;
     left: 98px;
     width: 26px;
     height:12.5px;
@@ -144,7 +144,7 @@ body{
 
 .ss9{
     position: absolute;
-    top: 70px;
+    top: 69px;
     left: 101px;
     width: 26px;
     height:12.5px;
@@ -156,7 +156,7 @@ body{
 
 .ss10 {
   position: absolute;
-  top:86px;
+  top:87px;
   left: 121px;
   border-left: 1px solid red;
   height: 20px;
@@ -166,7 +166,7 @@ body{
 
 .ss11 {
   position: absolute;
-  top:83px;
+  top:84px;
   left: 124px;
   border-left: 1px solid red;
   height: 20px;
@@ -175,7 +175,7 @@ body{
 
 .ss12 {
   position: absolute;
-  top:80px;
+  top:81px;
   left: 127px;
   border-left: 1px solid red;
   height: 20px;
@@ -227,13 +227,13 @@ body{
   left:1400px;
   top:150px;
   border: 1px ;
-  filter: blur(14px);
+/*  filter: blur(14px);*/
      transform: scale(2,2);
 }
 
-.letterww:hover {
+/*.letterww:hover {
     filter: blur(4px);
-}
+}*/
 
 .ww1 {
   position: absolute;
@@ -429,13 +429,13 @@ body{
   left:2100px;
   top:-50px;
   border: 1px ;
-  filter: blur(3px);
+/*  filter: blur(3px);*/
      transform: scale(2,2);
 }
-
+/*
 .letterii:hover {
     filter: blur(5px);
-}
+}*/
 
 .ii1 {
   position: absolute;
@@ -556,13 +556,13 @@ body{
   left:2800px;
   top:-250px;
   border: 1px ;
-  filter: blur(6px);
+/*  filter: blur(6px);*/
      transform: scale(2,2);
 }
 
-.lettertt:hover {
+/*.lettertt:hover {
     filter: blur(3px);
-}
+}*/
 
 .tt1 {
   position: absolute;
@@ -656,13 +656,13 @@ body{
   left:3500px;
   top:-450px;
   border: 1px ;
-  filter: blur(4px);
+/*  filter: blur(4px);*/
      transform: scale(2,2);
 }
 
-.lettercc:hover {
+/*.lettercc:hover {
     filter: blur(9px);
-}
+}*/
 
 .cc1{
     position: absolute;
@@ -772,13 +772,13 @@ body{
   left:4200px;
   top: -650px;
   border: 1px ;
-  filter: blur(8px);
+/*  filter: blur(8px);*/
      transform: scale(2,2);
 }
-.letterhh:hover {
+/*.letterhh:hover {
     filter: blur(7px);
 }
-
+*/
 .hh1 {
   position: absolute;
   top:10px;
@@ -928,13 +928,13 @@ body{
   left:4900px;
   top:-850px;
   border: 1px;
-  filter: blur(3px);
+/*  filter: blur(3px);*/
      transform: scale(2,2);
 }
-.letteree:hover {
+/*.letteree:hover {
     filter: blur(20px);
 }
-
+*/
 .ee1 {
   position: absolute;
   top:10px;
@@ -1083,13 +1083,10 @@ body{
   left:5600px;
   top:-1050px;
   border: 1px ;
-  filter: blur(2px);
      transform: scale(2,2);
 }
 
-.letterdd:hover {
-    filter: blur(9px);
-}
+
 
 .dd1 {
   position: absolute;
@@ -1719,12 +1716,8 @@ body{
   left:800px;
   top:-250px;
   border: 1px ;
-  filter: blur(5px);
 }
 
-.letterd:hover {
-    filter: blur(0px);
-}
 
 .d1 {
   position: absolute;
@@ -1891,13 +1884,13 @@ body{
   left:1000px;
   top:-450px;
   border: 1px;
-  filter: blur(2px);
+/*  filter: blur(2px);*/
 }
-
+/*
 .lettere:hover {
     filter: blur(0px);
 }
-
+*/
 .e1 {
   position: absolute;
   top:10px;
@@ -2340,12 +2333,12 @@ body{
   top:-1050px;
   left:1600px;
   border: 1px ;
-  filter: blur(3px);
+/*  filter: blur(3px);*/
 }
 
-.letterh:hover {
+/*.letterh:hover {
     filter: blur(0px);
-}
+}*/
 
 .h1 {
   position: absolute;
@@ -2500,13 +2493,13 @@ body{
   top:-1250px;
   border: 1px ;
 
-    filter: blur(6px);
+   /* filter: blur(6px);*/
 }
 
-.letteri:hover {
+/*.letteri:hover {
     filter: blur(0px);
 }
-
+*/
 .i1 {
   position: absolute;
   top:10px;
@@ -3815,12 +3808,12 @@ body{
   left:3800px;
   top:-3250px;
   border: 1px ;
-  filter: blur(5px);
+/*  filter: blur(5px);*/
 }
 
-.letters:hover {
+/*.letters:hover {
     filter: blur(0px);
-}
+}*/
 .s1{
     position: absolute;
     top: 10px;
@@ -4001,12 +3994,12 @@ body{
   left:4000px;
   top:-3450px;
   border: 1px ;
-filter: blur(3px);
+/*filter: blur(3px);*/
 }
 
-.lettert:hover {
+/*.lettert:hover {
     filter: blur(0px);
-}
+}*/
 
 .t1 {
   position: absolute;
@@ -4408,12 +4401,12 @@ filter: blur(3px);
   left:4600px;
   top:-4050px;
   border: 1px ;
-  filter: blur(8px);
+/*  filter: blur(8px);*/
 }
 
-.letterw:hover {
+/*.letterw:hover {
     filter: blur(0px);
-}
+}*/
 
 .w1 {
   position: absolute;
