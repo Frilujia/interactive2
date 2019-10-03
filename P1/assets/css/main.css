@@ -37,7 +37,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:800px;
+  left:180px;
   top:350px;
   border: 1px ;
 /*    filter: blur(6px);*/
@@ -224,7 +224,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1400px;
+  left:360px;
   top:150px;
   border: 1px ;
 /*  filter: blur(14px);*/
@@ -426,7 +426,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:2100px;
+  left:530px;
   top:-50px;
   border: 1px ;
 /*  filter: blur(3px);*/
@@ -553,7 +553,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:2800px;
+  left:710px;
   top:-250px;
   border: 1px ;
 /*  filter: blur(6px);*/
@@ -653,7 +653,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:3500px;
+  left:890px;
   top:-450px;
   border: 1px ;
 /*  filter: blur(4px);*/
@@ -769,7 +769,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:4200px;
+  left:1080px;
   top: -650px;
   border: 1px ;
 /*  filter: blur(8px);*/
@@ -925,7 +925,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:4900px;
+  left:1290px;
   top:-850px;
   border: 1px;
 /*  filter: blur(3px);*/
@@ -1080,7 +1080,7 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:5600px;
+  left:1480px;
   top:-1050px;
   border: 1px ;
      transform: scale(2,2);
