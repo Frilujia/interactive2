@@ -19,10 +19,23 @@ background-color: transparent;
 }
 
 h2 {
-	font-family:copperplate;
-	font-size: 20px;
+  font-family:copperplate;
+  font-size: 20px;
   top: 200px;
-	text-align: center;
+  text-align: center;
+  position: fixed;
+  text-align: justify;
+  line-height: 2;
+
+}
+
+
+h3 {
+  font-family:copperplate;
+  font-size: 20px;
+  top: 20px;
+  left: 50px;
+  text-align: center;
   position: fixed;
   text-align: justify;
   line-height: 2;
@@ -38,6 +51,22 @@ h2 {
 }
 
 /* items */
+.Generator {
+font-size: 50px;
+text-align: right;
+}
+
+#GButton {
+  width: 320px;
+  height: 52px;
+  background-color: white;
+  margin: 20px;
+  position: fixed;
+  right: 20px;
+  top: 700px;
+  z-index: -100;
+/*  box-shadow: 10px 10px #FFD700*/;
+}
 
 
 
@@ -46,7 +75,7 @@ h2 {
 	width: 240px;
 	background: white;
 	color: #167193;
-	margin: 10px;
+	margin: 50px;
 	padding: 10px;
 	box-sizing: border-box;
 	float: center; 
@@ -72,7 +101,7 @@ animation-play-state: paused;
   animation: moveBg 10s ease 0s 2 alternate none;
 }
 
-
+/*
 #button{
     height: 61px;
   margin: 10px;
@@ -84,7 +113,7 @@ animation-play-state: paused;
   font-size: 52px;
   color:black;
 }
-
+*/
 
 #button-1{
 background-image: url('../1-1.png');
@@ -328,6 +357,398 @@ animation: movev 10s ease 0s 2 alternate none;
     background-position: bottom left;
   }
 }
+
+
+
+#button-13{
+background-image: url('../1-12.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-13:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+#button-14{
+background-image: url('../1-13.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-14:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-15{
+background-image: url('../1-13.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-15:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-16{
+background-image: url('../1-13.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-16:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-17{
+background-image: url('../1-13.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-17:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+#button-18{
+background-image: url('../1-13.png');
+background-size: 130%;
+color: white;
+animation: movew 10s ease 0s 2 alternate none;
+animation-play-state: paused;
+}
+
+#button-18:hover{
+
+animation: movew 10s ease 0s 2 alternate none;
+}
+
+@keyframes movew {
+  100% {
+    background-position: bottom right;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------color*/
+
+#Red {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background: #B30000;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+  z-index: 2;
+  top: 30px;
+}
+
+#Yellow {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background: #E5B001;
+  width: 50px;
+  height: 50px;
+  left: 200px;
+  z-index: 2;
+  top: 30px;
+}
+
+#Blue {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background: #354387;
+  width: 50px;
+  height: 50px;
+  left: 300px;
+  z-index: 2;
+  top: 30px;
+}
+
+#B1 {
+  position: absolute;
+  border: solid black 15px;
+  background-color: white;
+  width: 100px;
+  height: 229px;
+  top: 120px;
+  left: 100px;
+}
+
+#B2 {
+  position: absolute;
+  border: solid black 15px;
+  width: 100px;
+  height: 59px;
+  top: 364px;
+  left: 100px;
+}
+
+#B3 {
+  position: absolute;
+  border: solid black 15px;
+  width: 100px;
+  height: 40px;
+  top: 439px;
+  left: 100px;
+}
+
+#B4 {
+  position: absolute;
+  border: solid black 15px;
+  width: 100px;
+  height: 360px;
+  top: 494px;
+  left: 100px;
+}
+
+#B5 {
+  position: absolute;
+  border: solid black 15px;
+  width: 300px;
+  height: 359px;
+  top: 120px;
+  left: 215px;
+}
+
+#B6 {
+  position: absolute;
+  border: solid black 15px;
+  width: 500px;
+  height: 165px;
+  top: 494px;
+  left: 215px;
+}
+
+#B7 {
+  position: absolute;
+  border: solid black 15px;
+  width: 500px;
+  height: 180px;
+  top: 674px;
+  left: 215px;
+}
+
+
+#B8 {
+  position: absolute;
+  border: solid black 15px;
+  width: 50px;
+  height: 180px;
+  top: 120px;
+  left: 530px;
+}
+
+#B9 {
+  position: absolute;
+  border: solid black 15px;
+  width: 50px;
+  height: 75px;
+  top: 315px;
+  left: 530px;
+}
+
+#B10 {
+  position: absolute;
+  border: solid black 15px;
+  width: 120px;
+  height: 164px;
+  top: 315px;
+  left: 595px;
+}
+
+
+#B11 {
+  position: absolute;
+  border: solid black 15px;
+  width: 50px;
+  height: 74px;
+  top: 405px;
+  left: 530px;
+}
+
+#B12 {
+  position: absolute;
+  border: solid black 15px;
+  width: 435px;
+  height: 180px;
+  top: 120px;
+  left: 595px;
+}
+
+#B13 {
+  position: absolute;
+  border: solid black 15px;
+  width:120px;
+  height: 164px;
+  top: 315px;
+  left: 595px;
+}
+
+
+#B13 {
+  position: absolute;
+  border: solid black 15px;
+  width: 500px;
+  height: 439px;
+  top: 315px;
+  left:730px;
+}
+
+#B14 {
+  position: absolute;
+  border: solid black 15px;
+  width: 500px;
+  height: 84px;
+  top: 770px;
+  left:730px;
+}
+
+#B15 {
+  position: absolute;
+  border: solid black 15px;
+  width: 185px;
+  height: 34px;
+  top: 120px;
+  left:1045px;
+}
+
+#B16 {
+  position: absolute;
+  border: solid black 15px;
+  width: 185px;
+  height: 131px;
+  top: 169px;
+  left:1045px;
+}
+
+/*
+color------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 668px) and (max-width: 1024px) {
   .container{

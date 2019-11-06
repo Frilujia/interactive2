@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.letter').hover(
         function() {
             $(this).find('div').each(function() {
-                $(this).addClass('animation-' + Math.floor(Math.random() * 4 + 1));
+                $(this).addClass('animation-' + Math.floor(Math.random() * 5 + 1));
 
                 $(this).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
                     $(this).addClass('animation-' + Math.floor(Math.random() * 4 + 1));
