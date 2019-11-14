@@ -558,9 +558,9 @@ animation: movew 10s ease 0s 2 alternate none;
   background: #B30000;
   width: 50px;
   height: 50px;
-right:100px;
+left: 10px;
   z-index: 2;
-  top: 200px;
+  top: 130px;
 }
 
 #Yellow {
@@ -570,9 +570,9 @@ right:100px;
   background: #E5B001;
   width: 50px;
   height: 50px;
-right:100px;
+left: 100px;
   z-index: 2;
-  top: 300px;
+  top: 130px;
 }
 
 #Blue {
@@ -582,9 +582,9 @@ right:100px;
   background: #354387;
   width: 50px;
   height: 50px;
-right:100px;
+left: 200px;
   z-index: 2;
-  top: 400px;
+  top: 130px;
 }
 
 #B1 {
