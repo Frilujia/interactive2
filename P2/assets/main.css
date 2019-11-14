@@ -29,12 +29,13 @@ background-color: transparent;
 
 h2 {
   font-family:copperplate;
-  font-size: 20px;
+  font-size: 18px;
   top: 400px;
   text-align: center;
   position: fixed;
   text-align: justify;
   line-height: 2;
+
 
 }
 
@@ -42,12 +43,16 @@ h2 {
 h3 {
   font-family:copperplate;
   font-size: 28px;
-  top: 50px;
+  top: 0px;
   right: 50px;
   text-align: right;
   position: fixed;
   line-height: 2;
 
+}
+
+#pallete{
+	margin-top: 100px;
 }
 
 
@@ -62,27 +67,36 @@ text-align: left;
   letter-spacing: 0.5px;
 }
 
+.#backhome{
+margin-left: 0px;
+size: 50%;
+}
+
 .concept{
   font-family:copperplate;
-  margin-right: 1220px;
+  margin-right: 1300px;
   position: fixed;
   line-height: 1.5;
   text-align: left;
   margin-left: 15px;
+  color: #e2b308;
 }
 
 .secondary{
 font-family: copperplate;
 font-weight: lighter;
-font-size: 15px;
+  margin-right: 1300px;
+    margin-left: 15px;
+    margin-top: -380px;
+font-size: 13px;
+/*color: #ffffe6;*/
+background-color: black;
 text-align: left;
-margin-left: 1400px;
-margin-top: -400px;
-margin-right: 75px;
 /*  display: grid;
   grid-template-columns: repeat(1,240px);*/
   line-height: 1.5;
   letter-spacing: 0.5px;
+/*  color: #336d8c;*/
 }
 
 
@@ -544,9 +558,9 @@ animation: movew 10s ease 0s 2 alternate none;
   background: #B30000;
   width: 50px;
   height: 50px;
-  left: 100px;
+right:100px;
   z-index: 2;
-  top: 30px;
+  top: 200px;
 }
 
 #Yellow {
@@ -556,9 +570,9 @@ animation: movew 10s ease 0s 2 alternate none;
   background: #E5B001;
   width: 50px;
   height: 50px;
-  left: 200px;
+right:100px;
   z-index: 2;
-  top: 30px;
+  top: 300px;
 }
 
 #Blue {
@@ -568,9 +582,9 @@ animation: movew 10s ease 0s 2 alternate none;
   background: #354387;
   width: 50px;
   height: 50px;
-  left: 300px;
+right:100px;
   z-index: 2;
-  top: 30px;
+  top: 400px;
 }
 
 #B1 {
@@ -579,8 +593,8 @@ animation: movew 10s ease 0s 2 alternate none;
   background-color: white;
   width: 100px;
   height: 229px;
-  top: 120px;
-  left: 100px;
+  top: 200px;
+  left: 10px;
 }
 
 #B2 {
@@ -588,8 +602,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 100px;
   height: 59px;
-  top: 364px;
-  left: 100px;
+  top: 444px;
+  left: 10px;
 }
 
 #B3 {
@@ -597,8 +611,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 100px;
   height: 40px;
-  top: 439px;
-  left: 100px;
+  top: 519px;
+  left: 10px;
 }
 
 #B4 {
@@ -606,8 +620,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 100px;
   height: 360px;
-  top: 494px;
-  left: 100px;
+  top: 574px;
+  left: 10px;
 }
 
 #B5 {
@@ -615,8 +629,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 300px;
   height: 359px;
-  top: 120px;
-  left: 215px;
+  top: 200px;
+  left: 125px;
 }
 
 #B6 {
@@ -624,8 +638,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 500px;
   height: 165px;
-  top: 494px;
-  left: 215px;
+  top: 574px;
+  left: 125px;
 }
 
 #B7 {
@@ -633,8 +647,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 500px;
   height: 180px;
-  top: 674px;
-  left: 215px;
+  top: 754px;
+  left: 125px;
 }
 
 
@@ -643,8 +657,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 50px;
   height: 180px;
-  top: 120px;
-  left: 530px;
+  top: 200px;
+  left: 440px;
 }
 
 #B9 {
@@ -652,8 +666,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 50px;
   height: 75px;
-  top: 315px;
-  left: 530px;
+  top: 395px;
+  left: 440px;
 }
 
 #B10 {
@@ -661,8 +675,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 120px;
   height: 164px;
-  top: 315px;
-  left: 595px;
+  top: 395px;
+  left: 505px;
 }
 
 
@@ -671,8 +685,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 50px;
   height: 74px;
-  top: 405px;
-  left: 530px;
+  top: 485px;
+  left: 440px;
 }
 
 #B12 {
@@ -680,27 +694,27 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 435px;
   height: 180px;
-  top: 120px;
-  left: 595px;
+  top: 200px;
+  left: 505px;
 }
 
-#B13 {
+/*#B13 {
   position: absolute;
   border: solid black 15px;
   width:120px;
   height: 164px;
   top: 315px;
-  left: 595px;
+  left: 485px;
 }
-
+*/
 
 #B13 {
   position: absolute;
   border: solid black 15px;
   width: 500px;
   height: 439px;
-  top: 315px;
-  left:730px;
+  top: 395px;
+  left:640px;
 }
 
 #B14 {
@@ -708,8 +722,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 500px;
   height: 84px;
-  top: 770px;
-  left:730px;
+  top: 850px;
+  left:640px;
 }
 
 #B15 {
@@ -717,8 +731,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 185px;
   height: 34px;
-  top: 120px;
-  left:1045px;
+  top: 200px;
+  left:955px;
 }
 
 #B16 {
@@ -726,8 +740,8 @@ animation: movew 10s ease 0s 2 alternate none;
   border: solid black 15px;
   width: 185px;
   height: 131px;
-  top: 169px;
-  left:1045px;
+  top: 249px;
+  left:955px;
 }
 
 /*
