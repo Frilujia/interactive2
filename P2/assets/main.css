@@ -6,10 +6,19 @@
 
 }
 
-h1{
+.bgvideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*h1{
   font-size: 60px;
   color: white;
-}
+  top: 0px;
+}*/
 
 a{
 color:black;
@@ -21,7 +30,7 @@ background-color: transparent;
 h2 {
   font-family:copperplate;
   font-size: 20px;
-  top: 200px;
+  top: 400px;
   text-align: center;
   position: fixed;
   text-align: justify;
@@ -55,9 +64,11 @@ text-align: left;
 
 .concept{
   font-family:copperplate;
-  margin-right: 400px;
+  margin-right: 1220px;
   position: fixed;
   line-height: 1.5;
+  text-align: left;
+  margin-left: 15px;
 }
 
 .secondary{
@@ -65,8 +76,9 @@ font-family: copperplate;
 font-weight: lighter;
 font-size: 15px;
 text-align: left;
-margin-left: 400px;
-margin-top: 150px;
+margin-left: 1400px;
+margin-top: -400px;
+margin-right: 75px;
 /*  display: grid;
   grid-template-columns: repeat(1,240px);*/
   line-height: 1.5;
