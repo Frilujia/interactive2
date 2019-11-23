@@ -61,14 +61,6 @@ var Color;
         $('body').css('background', 'blue');
     //document.body.style.backgroundColor = "red";
     }
-    
-
-
-
-  $('#click-area').click(function(){
-    var clone = $('#position').clone();
-    $('body').append(clone);
-  }
 
 
 
