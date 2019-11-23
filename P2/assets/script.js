@@ -63,6 +63,7 @@ var Color;
     }
     
 
+
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
@@ -76,6 +77,7 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-border-red";
 }
+
 
 
 });

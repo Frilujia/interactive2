@@ -84,7 +84,7 @@ text-align: left;
   grid-template-columns: repeat(1,240px);
   line-height: 1.5;
   letter-spacing: 0.5px;
-  margin-left: 360px;
+  margin-left: 460px;
 }
 
 #sub3{
@@ -96,7 +96,7 @@ text-align: left;
   grid-template-columns: repeat(1,240px);
   line-height: 1.5;
   letter-spacing: 0.5px;
-  margin-left: 770px;
+  margin-left: 819px;
 }
 
 .backhome{
@@ -152,6 +152,11 @@ text-align: left;
   margin-bottom: 300px;
   display: grid;
   grid-template-columns: repeat(6,240px);
+}
+
+.container2{
+  margin-top: 100px;
+  margin-bottom: 300px;
 }
 
 /* items */
