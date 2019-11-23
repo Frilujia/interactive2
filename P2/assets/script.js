@@ -44,7 +44,7 @@ var Color;
     });  
 
     $('#Red').click(function(){
-        Color = ' #B30000';
+        Color = '#bf350b';
     });
 
     $('#Yellow').click(function(){
@@ -53,7 +53,7 @@ var Color;
 
 
     $('#Blue').click(function(){
-        Color = '#354387';
+        Color = '#45658c';
     });
 
 
