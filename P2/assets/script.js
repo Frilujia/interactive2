@@ -61,10 +61,9 @@ var Color;
         $('body').css('background', 'blue');
     //document.body.style.backgroundColor = "red";
     }
+    
 
-
-
-});
+    
 
 function openCity(evt, cityName) {
   var i, x, tablinks;
