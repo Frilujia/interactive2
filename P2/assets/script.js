@@ -64,6 +64,16 @@ var Color;
     
 
 
+
+  $('#click-area').click(function(){
+    var clone = $('#position').clone();
+    $('body').append(clone);
+  }
+
+
+
+});
+
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
