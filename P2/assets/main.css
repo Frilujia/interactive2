@@ -7,6 +7,8 @@
 
 }
 
+
+
 /*.bg{
   width: 100vh;
   position: fixed;
@@ -174,6 +176,560 @@ text-align: right;
   z-index: -100;
 /*  box-shadow: 10px 10px #FFD700*/;
 }
+
+
+
+
+.container2{
+  background-color:#1a1919; 
+  margin-top: 50px;
+  margin-bottom: 300px;
+  width: 1440px;
+  height: 720px;
+}
+
+
+
+
+.resizable {
+  background: #bd2a06;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.resizable2 {
+  background: #335f91;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 290px;
+}
+
+.resizable3 {
+  background: #daa900;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 600px;
+  left: 160px;
+}
+
+.resizable4 {
+  background: #daa900;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 550px;
+}
+
+.resizable5 {
+  background: #335f91;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 750px;
+  left: 500px;
+}
+
+.resizable6 {
+  background: #bd2a06;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 550px;
+  left: 600px;
+}
+
+
+.resizable7 {
+  background: #335f91;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 770px;
+}
+
+.resizable8 {
+  background: #daa900;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 470px;
+  left: 865px;
+}
+
+.resizable9 {
+  background: #bd2a06;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 715px;
+  left: 920px;
+}
+
+.resizable10 {
+  background: #335f91;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 630px;
+  left: 1110px;
+}
+
+.resizable11 {
+  background: #bd2a06;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 1200px;
+}
+
+.resizable12 {
+  background: #daa900;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 560px;
+  left: 1290px;
+}
+
+
+
+.resizable .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+
+.resizable2 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable2 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable2 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable2 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable2 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable2 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+.resizable3 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable3 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable3 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable3 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable3 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable3 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+.resizable4 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable4 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable4 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable4 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable4 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable4 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+.resizable5 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable5 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable5 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable5 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable5 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable5 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+.resizable6 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable6 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable6 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable6 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable6 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable6 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+.resizable7 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable7 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable7 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable7 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable7 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable7 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+.resizable8 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable8 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable8 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable8 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable8 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable8 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+
+.resizable9 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable9 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable9 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable9 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable9 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable9 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+
+.resizable10 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable10 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable10 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable10 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable10 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable10 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+.resizable11 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable11 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable11 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable11 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable11 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable11 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
+
+
+
+.resizable12 .resizers{
+  width: 100%;
+  height: 100%;
+}
+
+.resizable12 .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.resizable12 .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable12 .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizable12 .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizable12 .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+
 
 
 
