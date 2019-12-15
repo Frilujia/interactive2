@@ -50,7 +50,7 @@ animation: clearIn 10s linear;
 
 .quote{
   left:620px;
-  top: 510px;
+  top: 550px;
   width: 650px;
 
   font-family: raleway, sans-serif;
@@ -88,7 +88,7 @@ animation: clearIn 10s linear;
 
 
 #landingimg{
-  top:275px;
+  top:320px;
   left:870px;
 
 
@@ -172,7 +172,7 @@ transform-origin: top left;
 
 #artist{
 font-size: 25px;
-top: 430px;
+top: 500px;
 left:870px;
 /*filter: blur(0.7px);*/
 opacity: 0;
@@ -338,7 +338,7 @@ transition:  all 0.3s ease;
 
 #ps3{
 transform: rotate(90deg);
-top: 730px;
+top: 830px;
 right:0px;
 transform-origin: top right;
 }
@@ -374,7 +374,7 @@ left: 20px;
 #ps6{
 transform: rotate(-90deg);
 position: absolute;
-top:730px;
+top:830px;
 left:10px;
 transform-origin: top left;
 }
@@ -385,7 +385,7 @@ transform-origin: top left;
 }
 
 #PortraitSchniewind{
-top: 150px;
+top: 220px;
 left:515px;
 transition:  all 0.5s ease;
 }
@@ -399,7 +399,7 @@ transition:  all 0.5s ease;
 
 #gy3{
 transform: rotate(90deg);
-top: 620px;
+top: 720px;
 right:0px;
 transform-origin: top right;
 }
@@ -408,14 +408,14 @@ transform-origin: top right;
 #gy6{
 transform: rotate(-90deg);
 position: absolute;
-top:620px;
+top:720px;
 left:10px;
 transform-origin: top left;
 }
 
 
 #Gymnastik{
-top: 150px;
+top: 220px;
 left: 710px;
 z-index: 10000px;
 transition:  all 0.5s ease;
@@ -447,7 +447,7 @@ transition:  all 0.5s ease;
 
 #reader3{
 transform: rotate(90deg);
-top: 700px;
+top: 800px;
 right:10px;
 transform-origin: top right;
 }
@@ -456,14 +456,14 @@ transform-origin: top right;
 #reader6{
 transform: rotate(-90deg);
 position: absolute;
-top:700px;
+top:800px;
 left:10px;
 transform-origin: top left;
 }
 
 #reader{
-top: 150px;
-left:390px;
+top: 220px;
+left:490px;
 transition:  all 0.4s ease;
 }
 
@@ -488,7 +488,7 @@ transition:  all 0.4s ease;
 
 #ella3{
 transform: rotate(90deg);
-top: 630px;
+top: 730px;
 right:10px;
 transform-origin: top right;
 }
@@ -498,7 +498,7 @@ transform-origin: top right;
 #ella6{
 transform: rotate(-90deg);
 position: absolute;
-top:630px;
+top:730px;
 left:10px;
 transform-origin: top left;
 }
@@ -522,15 +522,15 @@ transform-origin: top left;
 
 
 #ella{
-top: 150px;
-left:600px;
+top: 220px;
+left:700px;
 transition:  all 0.3s ease;
 }
 
 
 #ta3{
 transform: rotate(90deg);
-top: 780px;
+top: 880px;
 right:10px;
 transform-origin: top right;
 }
@@ -539,15 +539,15 @@ transform-origin: top right;
 #ta6{
 transform: rotate(-90deg);
 position: absolute;
-top:780px;
+top:880px;
 left:10px;
 transform-origin: top left;
 }
 
 
 #ta{
-top: 150px;
-left:560px;
+top: 220px;
+left:660px;
   transition:  all 0.8s ease;
 }
 
@@ -570,7 +570,7 @@ left:560px;
 
 #s3{
 transform: rotate(90deg);
-top: 845px;
+top: 970px;
 right:10px;
 transform-origin: top right;
 }
@@ -579,13 +579,13 @@ transform-origin: top right;
 #s6{
 transform: rotate(-90deg);
 position: absolute;
-top:845px;
+top:970px;
 left:10px;
 transform-origin: top left;
 }
 
 #self{
-top: 150px;
+top: 220px;
 left:660px;
 transition:  all 0.8s ease;
 }
@@ -609,8 +609,8 @@ transition:  all 0.8s ease;
 
 
 .pstable{
-  left: 1130px;
-  top:310px;
+  left: 1230px;
+  top:380px;
   font-size: 15px;
   opacity: 0;
   transition:  all 0.3s ease;
@@ -658,16 +658,16 @@ table {
 
 
 .readertable{
-  left: 1130px;
-  top:310px;
+  left: 1230px;
+  top:380px;
   font-size: 15px;
   opacity: 0;
   transition:  all 0.3s ease;
 }
 
 .gytable{
-  left: 950px;
-  top:310px;
+  left: 1050px;
+  top:380px;
   font-size: 15px;
   opacity: 0;
   transition:  all 0.3s ease;
@@ -677,8 +677,8 @@ table {
 
 
 .ellatable{
-  left: 950px;
-  top:310px;
+  left: 1050px;
+  top:380px;
   font-size: 15px;
   opacity: 0;
   transition:  all 0.3s ease;
@@ -688,8 +688,8 @@ table {
 
 
 .tatable{
-  left: 950px;
-  top:310px;
+  left: 1050px;
+  top:380px;
   font-size: 15px;
   opacity: 0;
   transition:  all 0.3s ease;
@@ -697,8 +697,8 @@ table {
 
 
 .selftable{
-  left: 960px;
-  top:310px;
+  left: 1060px;
+  top:380px;
   font-size: 15px;  
   opacity: 0;
   transition:  all 0.3s ease;
