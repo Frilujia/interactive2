@@ -124,7 +124,7 @@ animation: clearIn 10s linear;
 
 #painting3{
 transform: rotate(90deg);
-top: 710px;
+top: 810px;
 right:0px;
 transform-origin: top right;
 }
