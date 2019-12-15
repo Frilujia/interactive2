@@ -49,7 +49,7 @@ animation: clearIn 10s linear;
 
 
 .quote{
-  left:520px;
+  left:620px;
   top: 510px;
   width: 650px;
 
@@ -89,7 +89,7 @@ animation: clearIn 10s linear;
 
 #landingimg{
   top:275px;
-  left:770px;
+  left:870px;
 
 
     animation: fadeout 0.3s ease-in 8s forwards;
@@ -173,7 +173,7 @@ transform-origin: top left;
 #artist{
 font-size: 25px;
 top: 430px;
-left:770px;
+left:870px;
 /*filter: blur(0.7px);*/
 opacity: 0;
 
@@ -386,7 +386,7 @@ transform-origin: top left;
 
 #PortraitSchniewind{
 top: 150px;
-left:415px;
+left:515px;
 transition:  all 0.5s ease;
 }
 
@@ -416,7 +416,7 @@ transform-origin: top left;
 
 #Gymnastik{
 top: 150px;
-left: 610px;
+left: 710px;
 z-index: 10000px;
 transition:  all 0.5s ease;
 }
@@ -586,7 +586,7 @@ transform-origin: top left;
 
 #self{
 top: 150px;
-left:560px;
+left:660px;
 transition:  all 0.8s ease;
 }
 
