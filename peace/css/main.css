@@ -31,8 +31,8 @@ background-color:#f5f3d3;
 {
 /*	margin-left: 20px;*/
 /*	margin-right: 20px;*/
-	line-height: 180px;
-	font-family: 'Bellota', cursive;
+	line-height: 150px;
+	font-family: 'Josefin Slab', serif;
 	text-align: center;
 /*	z-index: 1000000;*/
 	position: absolute;
@@ -44,7 +44,7 @@ background-color:#f5f3d3;
 
 .here
 {	
-	font-size: 130px;
+	font-size: 100px;
 	    color:#363636;
 }
 
