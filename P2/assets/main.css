@@ -167,7 +167,7 @@ text-align: right;
 div.a {
 width: 50px;
 height:50px;
- background-color:#bf350b;
+ background-color:#AA3B19;
 position:fixed;
     
 }
@@ -175,21 +175,21 @@ position:fixed;
 div.b {
 width: 50px;
 height:50px;
- background-color:#45658c;
+ background-color:#0850BC;
 position:fixed;
     
 }
 div.c {
 width: 50px;
 height:50px;
- background-color:#000000;
+ background-color:#E2B317;
 position:fixed;
     
 }
 div.d {
 width: 50px;
 height:50px;
- background-color:#E5B001;
+ background-color:#000000;
 position:fixed;
     
 }
