@@ -1173,7 +1173,7 @@ animation: movew 10s ease 0s 2 alternate none;
   position: fixed;
   width: 70px;
   height: 70px;
-  background: #bf350b;
+  background: #AA3B19;
   width: 50px;
   height: 50px;
 left: 10px;
@@ -1185,7 +1185,7 @@ left: 10px;
   position: fixed;
   width: 70px;
   height: 70px;
-  background: #E5B001;
+  background: #E2B317;
   width: 50px;
   height: 50px;
 left: 110px;
@@ -1197,7 +1197,7 @@ left: 110px;
   position: fixed;
   width: 70px;
   height: 70px;
-  background: #45658c;
+  background: #0850BC;
   width: 50px;
   height: 50px;
 left: 210px;
@@ -1207,7 +1207,7 @@ left: 210px;
 
 #B1 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   background-color: white;
   width: 100px;
   height: 229px;
@@ -1217,103 +1217,103 @@ left: 210px;
 
 #B2 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 100px;
   height: 59px;
-  top: 444px;
+  top: 434px;
   left: 10px;
 }
 
 #B3 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 100px;
   height: 40px;
-  top: 519px;
+  top: 498px;
   left: 10px;
 }
 
 #B4 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 100px;
-  height: 360px;
-  top: 574px;
+  height: 400px;
+  top: 543px;
   left: 10px;
 }
 
 #B5 {
   position: absolute;
-  border: solid black 15px;
-  width: 300px;
-  height: 359px;
+  border: solid black 5px;
+  width: 310px;
+  height: 370px;
   top: 200px;
-  left: 125px;
+  left: 115px;
 }
 
 #B6 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 500px;
-  height: 165px;
-  top: 574px;
-  left: 125px;
+  height: 185px;
+  top: 575px;
+  left: 115px;
 }
 
 #B7 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 500px;
-  height: 180px;
-  top: 754px;
-  left: 125px;
+  height: 178px;
+  top: 765px;
+  left: 115px;
 }
 
 
 #B8 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 50px;
   height: 180px;
   top: 200px;
-  left: 440px;
+  left: 430px;
 }
 
 #B9 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 50px;
-  height: 75px;
-  top: 395px;
-  left: 440px;
+  height: 90px;
+  top: 385px;
+  left: 430px;
 }
 
 #B10 {
   position: absolute;
-  border: solid black 15px;
-  width: 120px;
-  height: 164px;
-  top: 395px;
-  left: 505px;
+  border: solid black 5px;
+  width: 130px;
+  height: 185px;
+  top: 385px;
+  left: 485px;
 }
 
 
 #B11 {
   position: absolute;
-  border: solid black 15px;
+  border: solid black 5px;
   width: 50px;
-  height: 74px;
-  top: 485px;
-  left: 440px;
+  height: 90px;
+  top: 480px;
+  left: 430px;
 }
 
 #B12 {
   position: absolute;
-  border: solid black 15px;
-  width: 435px;
+  border: solid black 5px;
+  width: 455px;
   height: 180px;
   top: 200px;
-  left: 505px;
+  left: 485px;
 }
 
 /*#B13 {
@@ -1328,38 +1328,38 @@ left: 210px;
 
 #B13 {
   position: absolute;
-  border: solid black 15px;
-  width: 500px;
-  height: 439px;
-  top: 395px;
-  left:640px;
+  border: solid black 5px;
+  width: 520px;
+  height: 455px;
+  top: 385px;
+  left:620px;
 }
 
 #B14 {
   position: absolute;
-  border: solid black 15px;
-  width: 500px;
-  height: 84px;
-  top: 850px;
-  left:640px;
+  border: solid black 5px;
+  width: 520px;
+  height: 98px;
+  top: 845px;
+  left:620px;
 }
 
 #B15 {
   position: absolute;
-  border: solid black 15px;
-  width: 185px;
-  height: 34px;
+  border: solid black 5px;
+  width: 195px;
+  height: 44px;
   top: 200px;
-  left:955px;
+  left:945px;
 }
 
 #B16 {
   position: absolute;
-  border: solid black 15px;
-  width: 185px;
+  border: solid black 5px;
+  width: 195px;
   height: 131px;
   top: 249px;
-  left:955px;
+  left:945px;
 }
 
 /*

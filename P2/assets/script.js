@@ -72,16 +72,16 @@ var Color;
     });  
 
     $('#Red').click(function(){
-        Color = '#bf350b';
+        Color = '#AA3B19';
     });
 
     $('#Yellow').click(function(){
-        Color = '#E5B001';
+        Color = '#E2B317';
     });
 
 
     $('#Blue').click(function(){
-        Color = '#45658c';
+        Color = '#0850BC';
     });
 
 
