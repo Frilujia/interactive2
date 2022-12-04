@@ -54,7 +54,6 @@ text-align: left;
   grid-template-columns: repeat(1,255px);
   line-height: 1.35;
   letter-spacing: 0.25px;
-  margin-right: 10px;
 }
 
 #sub2{
@@ -1179,7 +1178,7 @@ animation: movew 10s ease 0s 2 alternate none;
   height: 50px;
 left: 10px;
   z-index: 2;
-  top: 130px;
+  top: 150px;
 }
 
 #Yellow {
@@ -1191,7 +1190,7 @@ left: 10px;
   height: 50px;
 left: 110px;
   z-index: 2;
-  top: 130px;
+  top: 150px;
 }
 
 #Blue {
@@ -1203,7 +1202,7 @@ left: 110px;
   height: 50px;
 left: 210px;
   z-index: 2;
-  top: 130px;
+  top: 150px;
 }
 
 #B1 {
@@ -1212,7 +1211,7 @@ left: 210px;
   background-color: white;
   width: 100px;
   height: 229px;
-  top: 200px;
+  top: 220px;
   left: 10px;
 }
 
@@ -1221,7 +1220,7 @@ left: 210px;
   border: solid black 5px;
   width: 100px;
   height: 59px;
-  top: 434px;
+  top: 454px;
   left: 10px;
 }
 
@@ -1230,7 +1229,7 @@ left: 210px;
   border: solid black 5px;
   width: 100px;
   height: 40px;
-  top: 498px;
+  top: 518px;
   left: 10px;
 }
 
@@ -1239,7 +1238,7 @@ left: 210px;
   border: solid black 5px;
   width: 100px;
   height: 400px;
-  top: 543px;
+  top: 563px;
   left: 10px;
 }
 
@@ -1248,7 +1247,7 @@ left: 210px;
   border: solid black 5px;
   width: 310px;
   height: 370px;
-  top: 200px;
+  top: 220px;
   left: 115px;
 }
 
@@ -1257,7 +1256,7 @@ left: 210px;
   border: solid black 5px;
   width: 500px;
   height: 185px;
-  top: 575px;
+  top: 595px;
   left: 115px;
 }
 
@@ -1266,7 +1265,7 @@ left: 210px;
   border: solid black 5px;
   width: 500px;
   height: 178px;
-  top: 765px;
+  top: 785px;
   left: 115px;
 }
 
@@ -1276,7 +1275,7 @@ left: 210px;
   border: solid black 5px;
   width: 50px;
   height: 180px;
-  top: 200px;
+  top: 220px;
   left: 430px;
 }
 
@@ -1285,7 +1284,7 @@ left: 210px;
   border: solid black 5px;
   width: 50px;
   height: 90px;
-  top: 385px;
+  top: 405px;
   left: 430px;
 }
 
@@ -1294,7 +1293,7 @@ left: 210px;
   border: solid black 5px;
   width: 130px;
   height: 185px;
-  top: 385px;
+  top: 405px;
   left: 485px;
 }
 
@@ -1304,7 +1303,7 @@ left: 210px;
   border: solid black 5px;
   width: 50px;
   height: 90px;
-  top: 480px;
+  top: 500px;
   left: 430px;
 }
 
@@ -1313,7 +1312,7 @@ left: 210px;
   border: solid black 5px;
   width: 455px;
   height: 180px;
-  top: 200px;
+  top: 220px;
   left: 485px;
 }
 
@@ -1332,7 +1331,7 @@ left: 210px;
   border: solid black 5px;
   width: 520px;
   height: 455px;
-  top: 385px;
+  top: 405px;
   left:620px;
 }
 
@@ -1341,7 +1340,7 @@ left: 210px;
   border: solid black 5px;
   width: 520px;
   height: 98px;
-  top: 845px;
+  top: 865px;
   left:620px;
 }
 
@@ -1350,7 +1349,7 @@ left: 210px;
   border: solid black 5px;
   width: 195px;
   height: 44px;
-  top: 200px;
+  top: 220px;
   left:945px;
 }
 
@@ -1359,7 +1358,7 @@ left: 210px;
   border: solid black 5px;
   width: 195px;
   height: 131px;
-  top: 249px;
+  top: 269px;
   left:945px;
 }
 
