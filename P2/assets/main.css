@@ -46,38 +46,38 @@ font-family: 'PT Sans Narrow', sans-serif;
 
 
 #sub{
-font-family: 'PT Sans Narrow', sans-serif;
-font-weight: 400;
-font-size: 16px;
+font-family: 'Saira Condensed', sans-serif;
+font-weight: 500;
+font-size: 17px;
 text-align: left;
   display: grid;
-  grid-template-columns: repeat(1,240px);
-  line-height: 1.25;
-  letter-spacing: 0.5px;
+  grid-template-columns: repeat(1,255px);
+  line-height: 1.35;
+  letter-spacing: 0.25px;
   margin-right: 10px;
 }
 
 #sub2{
-font-family: 'PT Sans Narrow', sans-serif;
-font-weight: 400;
-font-size: 16px;
+font-family: 'Saira Condensed', sans-serif;
+font-weight: 500;
+font-size: 17px;
 text-align: left;
   display: grid;
-  grid-template-columns: repeat(1,240px);
-  line-height: 1.25;
-  letter-spacing: 0.5px;
+  grid-template-columns: repeat(1,255px);
+  line-height: 1.35;
+  letter-spacing: 0.25px;
   margin-left: 460px;
 }
 
 #sub3{
-font-family: 'PT Sans Narrow', sans-serif;
-font-weight: 400;
-font-size: 16px;
+font-family: 'Saira Condensed', sans-serif;
+font-weight: 500;
+font-size: 17px;
 text-align: left;
   display: grid;
-  grid-template-columns: repeat(1,240px);
-  line-height: 1.52;
-  letter-spacing: 0.5px;
+  grid-template-columns: repeat(1,255px);
+  line-height: 1.35;
+  letter-spacing: 0.25px;
   margin-left: 819px;
 }
 
@@ -98,6 +98,7 @@ max-width: 50%;
 .tab3{
 	margin-right: 154px;
 }
+
 
 .concept{
 font-family: 'PT Sans Narrow', sans-serif;
