@@ -28,12 +28,6 @@ $(document).ready(function(){
 		$(this).next('.item').toggleClass('rotation');
 	});
 
-// $(function() {
-//   $('').click(function() {
-//     $('.no-margin').css()
-//   }
-// }
-
 
 
 
