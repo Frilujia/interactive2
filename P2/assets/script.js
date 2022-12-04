@@ -81,7 +81,7 @@ var Color;
 
 
     $('#Blue').click(function(){
-        Color = '#0850BC';
+        Color = '#2D497F';
     });
 
 

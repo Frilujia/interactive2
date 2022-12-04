@@ -175,7 +175,7 @@ position:fixed;
 div.b {
 width: 50px;
 height:50px;
- background-color:#095DAB;
+ background-color:#2D497F;
 position:fixed;
     
 }
@@ -206,7 +206,7 @@ position:fixed;
 
 
 .resizable {
-  background: #bd2a06;
+  background: #AA3B19;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -215,7 +215,7 @@ position:fixed;
 }
 
 .resizable2 {
-  background: #335f91;
+  background: #2D497F;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -224,7 +224,7 @@ position:fixed;
 }
 
 .resizable3 {
-  background: #daa900;
+  background: #E2B317;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -233,7 +233,7 @@ position:fixed;
 }
 
 .resizable4 {
-  background: #daa900;
+  background: #E2B317;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -242,7 +242,7 @@ position:fixed;
 }
 
 .resizable5 {
-  background: #335f91;
+  background: #2D497F;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -251,7 +251,7 @@ position:fixed;
 }
 
 .resizable6 {
-  background: #bd2a06;
+  background: #AA3B19;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -261,7 +261,7 @@ position:fixed;
 
 
 .resizable7 {
-  background: #335f91;
+  background: #2D497F;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -270,7 +270,7 @@ position:fixed;
 }
 
 .resizable8 {
-  background: #daa900;
+  background: #E2B317;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -279,7 +279,7 @@ position:fixed;
 }
 
 .resizable9 {
-  background: #bd2a06;
+  background: #AA3B19;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -288,7 +288,7 @@ position:fixed;
 }
 
 .resizable10 {
-  background: #335f91;
+  background: #2D497F;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -297,7 +297,7 @@ position:fixed;
 }
 
 .resizable11 {
-  background: #bd2a06;
+  background: #AA3B19;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -306,7 +306,7 @@ position:fixed;
 }
 
 .resizable12 {
-  background: #daa900;
+  background: #E2B317;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -1197,7 +1197,7 @@ left: 110px;
   position: fixed;
   width: 70px;
   height: 70px;
-  background: #095DAB;
+  background: #2D497F;
   width: 50px;
   height: 50px;
 left: 210px;
