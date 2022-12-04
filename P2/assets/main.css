@@ -16,7 +16,7 @@ background-color: transparent;
 }
 
 h2 {
-  font-family:copperplate;
+font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;
   top: 400px;
   text-align: center;
@@ -29,7 +29,7 @@ h2 {
 
 
 h3 {
-  font-family:oswald;
+font-family: 'PT Sans Narrow', sans-serif;
   font-size: 28px;
   top: 0px;
   right: 50px;
@@ -46,37 +46,37 @@ h3 {
 
 
 #sub{
-font-family: oswald;
-font-weight: lighter;
-font-size: 13px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: 400;
+font-size: 16px;
 text-align: left;
   display: grid;
   grid-template-columns: repeat(1,240px);
-  line-height: 1.5;
+  line-height: 1.25;
   letter-spacing: 0.5px;
   margin-right: 10px;
 }
 
 #sub2{
-font-family: oswald;
-font-weight: lighter;
-font-size: 13px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: 400;
+font-size: 16px;
 text-align: left;
   display: grid;
   grid-template-columns: repeat(1,240px);
-  line-height: 1.5;
+  line-height: 1.25;
   letter-spacing: 0.5px;
   margin-left: 460px;
 }
 
 #sub3{
-font-family: oswald;
-font-weight: lighter;
-font-size: 13px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: 400;
+font-size: 16px;
 text-align: left;
   display: grid;
   grid-template-columns: repeat(1,240px);
-  line-height: 1.5;
+  line-height: 1.52;
   letter-spacing: 0.5px;
   margin-left: 819px;
 }
@@ -100,7 +100,7 @@ max-width: 50%;
 }
 
 .concept{
-  font-family:oswald;
+font-family: 'PT Sans Narrow', sans-serif;
   margin-right: 1300px;
   position: fixed;
   line-height: 1.5;
@@ -110,7 +110,7 @@ max-width: 50%;
 }
 
 .secondary{
-font-family: oswald;
+font-family: 'PT Sans Narrow', sans-serif;
 font-weight: lighter;
   margin-right: 1300px;
     margin-left: 15px;
