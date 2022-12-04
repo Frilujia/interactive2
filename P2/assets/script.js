@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
 
-
+//cover page animated rectangles//
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
@@ -46,7 +46,7 @@ function makeNewPosition(){
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 1150,   function(){
       animateDiv(myclass);        
     });
     

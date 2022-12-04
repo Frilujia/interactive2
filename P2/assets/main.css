@@ -197,6 +197,31 @@ position:fixed;
     
 }
 
+div.a:hover {
+  transform: scale(8);
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+div.b:hover {
+  transform: scale(8);
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+div.c:hover {
+  transform: scale(8);
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+div.d:hover {
+  transform: scale(8);
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+
 .container2{
   background-color:#1a1919; 
   margin-top: 50px;
