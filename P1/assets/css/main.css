@@ -1,9 +1,7 @@
 body{
   background-color: #e6e5e3;
+  cursor:url('../wrench2.png'), auto;
 }
-
-
-
 
 .animation-1{
     -ms-transform: translate(50px, 100px); /* IE 9 */
@@ -56,7 +54,7 @@ body{
   width: 200px;
   height: 200px;
   left:25px;
-  top:450px;
+  top:466px;
   border: 1px ;
 /*    filter: blur(6px);*/
     transform: scale(6,6);
@@ -225,7 +223,7 @@ body{
     top: 106px;
     left: 68.5px;
     width: 51.5px;
-    height: 82px;
+    height: 81.5px;
 /*    border: 1px solid #00b8e6;*/
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 100px 100px;
@@ -238,7 +236,7 @@ body{
     top: 103px;
     left: 71.5px;
     width: 51.5px;
-    height: 82px;
+    height: 81.5px;
 /*    border: 1px solid #ffcc00;*/
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 100px 100px;
@@ -250,7 +248,7 @@ body{
     top: 100px;
     left: 74.5px;
     width: 51.5px;
-    height: 82px;
+    height: 81.5px;
 /*    border: 1px solid #b32d00;*/
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 100px 100px;
@@ -266,7 +264,7 @@ body{
   width: 200px;
   height: 200px;
   left:260px;
-  top:250px;
+  top:260px;
   border: 1px ;
 /*  filter: blur(14px);*/
      transform: scale(6,6);
@@ -393,7 +391,7 @@ body{
     position: absolute;
     top: 153px;
     left: 68px;
-    width: 26.5px;
+    width: 27px;
     height: 35px;
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 30px 0px;
@@ -405,7 +403,7 @@ body{
     position: absolute;
     top: 150px;
     left: 71px;
-    width: 26.5px;
+    width: 27px;
     height: 35px;
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 30px 0px;
@@ -417,7 +415,7 @@ body{
     position: absolute;
     top: 147px;
     left: 74px;
-    width: 26.5px;
+    width: 27px;
     height:35px;
     border: 1px solid #0D0D0D;
     border-radius: 0px 0px 30px 0px;
@@ -467,8 +465,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:505px;
-  top:50px;
+  left:497px;
+  top:60px;
   border: 1px ;
 /*  filter: blur(3px);*/
      transform: scale(6,6);
@@ -594,8 +592,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:610px;
-  top:-150px;
+  left:590px;
+  top:-140px;
   border: 1px ;
 /*  filter: blur(6px);*/
      transform: scale(6,6);
@@ -619,7 +617,7 @@ body{
   top:80px;
   left: 97px;
   border-left: 1px solid red;
-  height: 110px;
+  height: 109px;
   border-color: #0D0D0D;
   
 }
@@ -639,7 +637,7 @@ body{
   top:77px;
   left: 100px;
   border-left: 1px solid red;
-  height: 110px;
+  height: 109px;
   border-color: #0D0D0D;
 }
 
@@ -657,7 +655,7 @@ body{
   top:74px;
   left: 103px;
   border-left: 1px solid red;
-  height: 110px;
+  height: 109px;
   border-color: #0D0D0D;
 }
 
@@ -694,8 +692,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:890px;
-  top:-350px;
+  left:860px;
+  top:-340px;
   border: 1px ;
 /*  filter: blur(4px);*/
      transform: scale(6,6);
@@ -810,8 +808,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1100px;
-  top: -550px;
+  left:1079px;
+  top: -540px;
   border: 1px ;
 /*  filter: blur(8px);*/
      transform: scale(6,6);
@@ -966,8 +964,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1520px;
-  top:-750px;
+  left:1495px;
+  top:-740px;
   border: 1px;
 /*  filter: blur(3px);*/
      transform: scale(6,6);
@@ -1122,8 +1120,8 @@ body{
   position: relative;
   width: 200px;
   height: 200px;
-  left:1765px;
-  top:-950px;
+  left:1720px;
+  top:-940px;
   border: 1px ;
      transform: scale(6,6);
 }
