@@ -2,6 +2,9 @@ body{
   background-color: #e6e5e3;
 }
 
+
+
+
 .animation-1{
     -ms-transform: translate(50px, 100px); /* IE 9 */
     -webkit-transform: translate(50px, 100px); /* Safari */
@@ -1292,6 +1295,42 @@ body{
 
 /*intro page*/
 
+.concept{
+  position: absolute;
+  width: 360px;
+  height: 20px;
+  font-size: 13.5px;
+  font-family: 'Inconsolata', monospace;
+  top: 800px;
+  left:270px;
+  line-height: 17px;
+  opacity: 80%;
+}
+
+.note1{
+  position: absolute;
+  width: 360px;
+  height: 20px;
+  font-size: 13.5px;
+  font-family: 'Inconsolata', monospace;
+  top: 900px;
+  left:270px;
+  line-height: 17px;
+    opacity: 80%;
+}
+
+/*.introsig{
+  position: absolute;
+  width: 430px;
+  height: 20px;
+  font-size: 13.5px;
+  font-family: 'Inconsolata', monospace;
+  top: 920px;
+  left:270px;
+  line-height: 16.5px;
+    opacity: 80%;
+}
+*/
 
 .lettersstwo {
   position: relative;
@@ -1410,7 +1449,29 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
 /*showcase page*/
+
+
+.note2{
+  position: absolute;
+  width: 360px;
+  height: 20px;
+  font-size: 13.5px;
+  font-family: 'Inconsolata', monospace;
+  top: 800px;
+  left:270px;
+  line-height: 17px;
+  opacity: 80%;
+}
+
 
 .lettera {
   position: relative;
