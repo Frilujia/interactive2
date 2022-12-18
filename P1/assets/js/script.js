@@ -128,19 +128,19 @@ $(document).ready(function(){
         }
 
         if ( e.which == 49 ) {
-            $('html, body').animate({scrollLeft: $('#one').position().left}, 500);
+            $('html, body').animate({scrollLeft: $('#one').position().left}, 1000);
         }
 
          if ( e.which == 50 ) {
-            $('html, body').animate({scrollLeft: $('#two').position().left}, 500);
+            $('html, body').animate({scrollLeft: $('#two').position().left}, 1000);
         }
 
          if ( e.which == 51 ) {
-            $('html, body').animate({scrollLeft: $('#three').position().left}, 500);
+            $('html, body').animate({scrollLeft: $('#three').position().left}, 1000);
         }
 
          if ( e.which == 52 ) {
-            $('html, body').animate({scrollLeft: $('#four').position().left}, 500);
+            $('html, body').animate({scrollLeft: $('#four').position().left}, 10600);
         }
 
         if ( e.which == 53 ) {
