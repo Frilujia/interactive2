@@ -10,7 +10,8 @@ body{
     -webkit-transform: translate(50px, 100px); /* Safari */
     transform: translate(0px, 10px);
 /*  transition: 0.2s;*/
-    transition: all 0.9s ease-in-out;
+/*    transition: all 0.9s ease-in-out;*/
+    transition: 0.2s;
 /*  border: 0.5px solid #00b8e6;*/
 }
 
