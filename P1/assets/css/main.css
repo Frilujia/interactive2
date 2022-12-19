@@ -1,6 +1,10 @@
 body{
   background-color: #e6e5e3;
-  cursor:url('../wrench2.png'), auto;
+}
+
+
+#cursor{
+    cursor:move;, auto;
 }
 
 .animation-1{
@@ -40,14 +44,58 @@ body{
 
 
 /*
-  letter colors
+  RGB colors
   #b32d00
   #00b8e6
   #ffcc00
 */
 
 
-/*home page*/
+/*display page*/
+
+.wrench{
+    position: absolute;
+  left:520px;
+  top:-360px;
+    transform: scale(0.35,0.35);
+}
+
+.wrench:hover img {
+  transition: 1s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+.wrench2{
+    position: absolute;
+  left:-325px;
+  top:0px;
+    transform: scale(0.5,0.5) rotate(280deg);
+}
+
+.wrench2:hover img {
+  transition: 1s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+
+
+
 
 .letterss {
   position: relative;
@@ -7652,7 +7700,5 @@ left: 1175px;
   border: 1px ;
   transform: scale(0.5,0.5);
 }
-
-
 
 
